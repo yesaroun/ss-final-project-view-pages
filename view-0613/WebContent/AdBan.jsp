@@ -42,15 +42,25 @@
                 
             </div>
             <div class="span10" style="margin-left: 200px;">
-                <!-- 안내문??? ===================================================== -->
-                <div class="row">
-                    <div class="col">
-                        <ol class="breadcrumb">
-                            <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
-                        </ol>
+                <div class="container">
+                    <!-- 안내문??? ===================================================== -->
+                    <div class="row">
+                        <div class="col">
+                            <!--
+                            <ol class="breadcrumb">
+                                <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
+                            </ol>
+                            -->
+                            <ol class="breadcrumb">
+                                <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
+                            </ol>
+                            
+                        </div>
                     </div>
+                    <!-- 안내문??? ===================================================== -->
+                    
                 </div>
-                <!-- 안내문??? ===================================================== -->
+                
                 <div class="row">
                     
                     <!-- 회원 리스트 -->
@@ -163,17 +173,8 @@
                 </div>
             </div>
         </div>
-		
-		
-		<!-- 밑에 공백만드는용 ㅠ -->
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		
 				
 	</div>
-
-
-	<footer class="bg-dark mt-4 p-5 text-center" style="color: #FFFFFF;">
-		머니로그의 푸터 부분입니다. </footer>
 
 
 	<!-- 제이쿼리 자바스크립트 추가하기 -->

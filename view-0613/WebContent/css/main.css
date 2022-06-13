@@ -1,3 +1,4 @@
+/*admin.css-------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /*
 font-family: 'Noto Sans KR', sans-serif;
@@ -12,10 +13,9 @@ h1, h2, h3, h4, h5, h6
     font-weight: 900;
     font-size: 50px;
 }
-
+/*-------------------------------------------admin.css*/
 /*userLogin
-
-이거 배경색좀 바꿔야겠음
+관리자에서 한번 했음
 */
 #login-main
 {

@@ -16,26 +16,15 @@
 </head>
 <body>
 
-	<!-- 네비게이션바 ===================================================== -->
+<!-- 네비게이션바 ===================================================== -->
 	<nav class="navbar navbar-expand-lg navbar-dark">
 		<a class="navbar-brand" href="./index.jsp">MONEYLOG</a>
-        <ol class="breadcrumb" style="height: 30px; background: #1fa766;">
-            <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
-        </ol>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbar" aria-controls="navbar" aria-expanded="false"
 			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse justify-content-end"
-			id="navbar">
-			<div class="navbar-nav mr-sm-2">
-				<a class="nav-item nav-link" href="#">통합관리</a>
-				<a class="nav-item nav-link" href="#">머니리뷰</a>
-				<a class="nav-item nav-link" href="#">고객지원</a>
-				<a class="nav-item nav-link" href="#">로그아웃</a>
-			</div>
-		</div>
+		
 	</nav>
 	<!-- 네비게이션바 ===================================================== -->
 
@@ -48,6 +37,7 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<!-- MDB 라이브러리 추가하기 <== chart!!!! **** -->
 	<script src="./js/mdb.min.js"></script>
+	
 	
 </body>
 </html>

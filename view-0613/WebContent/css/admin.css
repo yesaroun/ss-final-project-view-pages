@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*
+font-family: 'Noto Sans KR', sans-serif;
+*/
+/*reset*/
+*{margin: 0; padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {text-decoration: inherit; color: inherit;}
+li {list-style: none;}
+img {vertical-align: middle;}
+a img {border: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+
+body {font-family: 'Noto Sans KR', sans-serif; font-weight: 400;}
+h1, h2{font-weight: 900;}
+h3, h4{font-weight: 700;}
+h5, h6{font-weight: 500;}
+
+header {position: fixed; top: 0; z-index: 100; width: 100vw;}
+section > .container {margin-top: 55px}
+
+/*AdLogin.jsp*/
+.login-title {margin-top: 100px; }
+.login-title > div {text-align: center;}
+.login-title > div > h1 {color: #84A59D; margin: 40px;}
+#loginForm {width: 300px; background-color: #fff7e0; color: #9b9b9b; border-radius: 5px; margin-left: auto; margin-right: auto; padding: 20px;}
+#loginForm .text-field {width: 100%; font-size: 14px; margin-bottom: 10px; padding: 10px; border-radius: 5px;}
+#loginForm #loginBtn { width: 260px; margin-bottom: 10px; padding: 10px; border-radius: 5px;}
+
+
+
+
+
+
+
+
