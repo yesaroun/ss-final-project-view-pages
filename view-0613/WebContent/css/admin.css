@@ -26,12 +26,14 @@ section > .container {margin-top: 55px}
 /*AdLogin.jsp*/
 .login-title {margin-top: 100px; }
 .login-title > div {text-align: center;}
-.login-title > div > h1 {color: #84A59D; margin: 40px;}
-#loginForm {width: 300px; background-color: #fff7e0; color: #9b9b9b; border-radius: 5px; margin-left: auto; margin-right: auto; padding: 20px;}
+.login-title > div > h1 {color: #FF9B85; margin: 40px; font-size: 50px;}
+#loginForm {width: 300px; background-color: #FFD97D; color: #9b9b9b; border-radius: 5px; margin-left: auto; margin-right: auto; padding: 20px;}
 #loginForm .text-field {width: 100%; font-size: 14px; margin-bottom: 10px; padding: 10px; border-radius: 5px;}
-#loginForm #loginBtn { width: 260px; margin-bottom: 10px; padding: 10px; border-radius: 5px;}
+#loginForm #loginBtn { width: 260px; margin-bottom: 10px; padding: 10px; border-radius: 5px; background-color: #FF9B85; border: none;}
 
-
+/*Nav*/
+.navbar { background-color: #FFD97D;}
+.navbar-brand { margin-left: 10px;}
 
 
 

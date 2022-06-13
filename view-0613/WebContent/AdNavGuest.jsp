@@ -12,19 +12,18 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- 부트스트랩 CSS 추가하기 -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/admin.css">
 </head>
 <body>
 
 <!-- 네비게이션바 ===================================================== -->
 	<nav class="navbar navbar-expand-lg navbar-dark">
-		<a class="navbar-brand" href="./index.jsp">MONEYLOG</a>
+		<a class="navbar-brand" href="./AdMain.jsp">MONEYLOG</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbar" aria-controls="navbar" aria-expanded="false"
 			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		
 	</nav>
 	<!-- 네비게이션바 ===================================================== -->
 
