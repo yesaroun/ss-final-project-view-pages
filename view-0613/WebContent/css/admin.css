@@ -22,6 +22,7 @@ h5, h6{font-weight: 500;}
 
 header {position: fixed; top: 0; z-index: 100; width: 100vw;}
 section > .container {margin-top: 55px}
+main { margin-left: 200px; margin-top: 55px;}
 
 /*AdLogin.jsp*/
 .login-title {margin-top: 100px; }
@@ -38,30 +39,70 @@ section > .container {margin-top: 55px}
 /*Sidebar*/
 
 /*실질적인 각 내비게이션 메뉴들의 색상 등을 정의*/
-#sidebar .list-group-item 
-{
-    background-color: #F7EDE2;
-    color: #000000;
-    border: none;
-    white-space: nowrap;
-}
+#sidebar .list-group-item  { background-color: #F7EDE2; color: #000000; border: none; white-space: nowrap;  }
 /*내비게이션 아래 끝까지 나열*/
-#sidebar .list-group 
-{
-    background-color: #F7EDE2;
-    min-height: 100vh;
-}
+#sidebar .list-group  { background-color: #F7EDE2;  min-height: 100vh; }
 /*메뉴를 선택했을 때 부모 요소의 색상을 변경해줌*/
-#sidebar .list-group .list-group-item[aria-expanded="true"] 
-{
-    background-color: #F7EDE2;
-}
+#sidebar .list-group .list-group-item[aria-expanded="true"]  { background-color: #F7EDE2; }
 /*메뉴를 선택했을 때 자식 요소의 색상을 변경해줌*/
-#sidebar .list-group .list-group-item:not(.collapsed) 
+#sidebar .list-group .list-group-item:not(.collapsed)  { background-color: #F7EDE2; }
+
+/*부가 설정*/
+#sidebar { overflow: hidden; z-index: 2; }
+@media (max-width: 768px) 
 {
-    background-color: #F7EDE2;
+    .span10 main {margin-left: 30px; margin-top: 40px;}
+    /*사이드바 너비를 정해진 크기 설정*/
+    #sidebar  { min-width: 35px; max-width: 40px; overflow-y: auto; overflow-x: visible;  transition: all 0.25s ease; transform: translateX(0px); position: fixed; }
+    /*사이드바의 서브 메뉴를 열었을 때 글자가 보이도록 함 */
+    #sidebar, #sidebar .list-group { min-width: 35px; overflow: visible; }
+    /*사이드바에서 서브 메뉴를 너비 설정*/
+    #sidebar .list-group .collapse.show, #sidebar .list-group .collapsing { position: relative; z-index: 1; width: 190px; top: 0; }
+    /* 아이콘을 정렬*/
+    #sidebar .list-group > .list-group-item { text-align: center; padding: .75rem .5rem; }
+    #sidebar::-webkit-scrollbar { width: 0px; }
+}
+/* mobile클래스 */
+@media (max-width: 990px)
+{
+    .mobile { display: none; }
+}
+@media (max-width: 560px)
+{
+    .mobile { display: none; }
 }
 
+/*AdMain.jsp*/
+ad-main-table number-colum {width: 60px; text-align: center;}
+ad-main-table member-column {text-align: center;}
+ad-main-table post-column {text-align: center;}
+
+
+/*board???*/
+.boardTitle
+{
+    background-color: #efefef;
+    padding: 6px;
+}
+.boardContent
+{
+    background-color: #efefef;
+    padding: 6px;
+    height: 320px;
+    overflow-y: scroll;
+}
+
+
+/* 모달(팝업같은거)이 중앙에 뜨도록 + 어떤 브라우저에서도 가능하게   */
+.modal
+{
+  -webkit-transform: translate(0,-50%);
+   -o-transform: translate(0,-50%);
+   transform: translate(0,-50%);
+   top: 50%;
+   margin: 0 auto;
+   height: 720px;
+}
 
 
 

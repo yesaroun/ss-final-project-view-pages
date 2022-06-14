@@ -53,17 +53,17 @@
             <jsp:include page="./AdNavManage.jsp"></jsp:include>
         </header>	
 
-        <main>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span2">
-                        <!-- ○ 좌측 메뉴바 include -->
-                        <jsp:include page="./AdMenuMain.jsp"></jsp:include>
+        <div class="container-fluid">
+            <div class="row-fluid ad-main">
+                <div class="span2">
+                    <!-- ○ 좌측 메뉴바 include -->
+                    <jsp:include page="./AdMenuMain.jsp"></jsp:include>
 
-                    </div>
+                </div>
 
-                    <div class="span10" style="margin-left: 200px;">
-                        <!-- 오늘의 할일 -->
+                <div class="span10">
+                    <!-- 오늘의 할일 -->
+                    <main>
                         <section>
                             <div class="row">
                                 <div class="col-md-12">
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                         </section>
-
+    
                         <!-- 공지사항 리스트 -->
                         <section>
                             <div class="row">
@@ -110,35 +110,33 @@
             
                                         <div class="list-group-item">
                                             <div class="list-group">
-                                                <table class="table">
+                                                <table class="table ad-main-table">
                                                     <tbody>
-                                                    
-                                                        <!-- class="mobile" 는 화면이 990픽셀 이하로 작아지면 안보이게 처리 (모바일용)-->
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <th class="mobile" style="width: 60px; text-align: center;">번호</th>
+                                                            <th class="number-column mobile" >번호</th>
                                                             <th style="text-align: center;">제목</th>
                                                             <th class="mobile" style="width: 120px; text-align: center;">작성일</th>
                                                         </tr>
                                                         
                                                         <tr>
-                                                            <td class="mobile" style="width: 60px; text-align: center;">3</td>
+                                                            <td class="number-column mobile">3</td>
                                                             <td>머니로그 신규 업데이트 안내 (3.321 패치)</td>
-                                                            <td class="mobile" style= "">2022-06-05</td>
+                                                            <td class="mobile">2022-06-05</td>
                                                         </tr>
                                                         
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <td class="mobile" style="width: 60px; text-align: center;">2</td>
+                                                            <td class="number-column mobile" >2</td>
                                                             <td>머니로그 버그 패치 안내</td>
-                                                            <td class="mobile" style= "">2022-06-05</td>
+                                                            <td class="mobile">2022-06-05</td>
                                                         </tr>
                                                         
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <td class="mobile" style="width: 60px; text-align: center;">1</td>
+                                                            <td class="number-column mobile" >1</td>
                                                             <td>머니로그 관련 공지사항 안내</td>
-                                                            <td class="mobile" style= "">2022-06-05</td>
+                                                            <td class="mobile">2022-06-05</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -148,7 +146,7 @@
                                 </div>
                             </div>
                         </section>
-
+    
                         <!-- 신규회원 현황 -->
                         <section>
                             <div class="row">
@@ -165,7 +163,7 @@
                                     </div>
                                 </div>
                             </div>
-
+    
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="list-group">
@@ -175,20 +173,20 @@
                 
                                         <div class="list-group-item">
                                             <div class="list-group">
-                                                <table class="table">
+                                                <table class="table ad-main-table">
                                                     <tbody>
                                                     
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <th class="mobile" style="text-align: center;">전체 회원</th>
-                                                            <th class="mobile" style="text-align: center;">신규 회원</th>
-                                                            <th class="mobile" style="text-align: center;">정지 회원</th>
+                                                            <th class="member-column mobile" >전체 회원</th>
+                                                            <th class="member-column mobile" >신규 회원</th>
+                                                            <th class="member-column mobile">정지 회원</th>
                                                         </tr>
                                                         
                                                         <tr>
-                                                            <td class="mobile" style="text-align: center;">3,302</td>
-                                                            <td class="mobile" style="text-align: center;">21</td>
-                                                            <td class="mobile" style="text-align: center;">33</td>
+                                                            <td class="member-column mobile">3,302</td>
+                                                            <td class="member-column mobile">21</td>
+                                                            <td class="member-column mobile">33</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -206,22 +204,22 @@
                 
                                         <div class="list-group-item">
                                             <div class="list-group">
-                                                <table class="table">
+                                                <table class="table ad-main-table">
                                                     <tbody>
                                                     
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <th class="mobile" style="text-align: center;">전체 게시글</th>
-                                                            <th class="mobile" style="text-align: center;">신규 게시글</th>
-                                                            <th class="mobile" style="text-align: center;">비공개 게시글</th>
-                                                            <th class="mobile" style="text-align: center;">비공개 댓글</th>
+                                                            <th class="post-column mobile" >전체 게시글</th>
+                                                            <th class="post-column mobile" >신규 게시글</th>
+                                                            <th class="post-column mobile" >비공개 게시글</th>
+                                                            <th class="post-column mobile" >비공개 댓글</th>
                                                         </tr>
                                                         
                                                         <tr>
-                                                            <td class="mobile" style="text-align: center;">3,302</td>
-                                                            <td class="mobile" style="text-align: center;">21</td>
-                                                            <td class="mobile" style="text-align: center;">33</td>
-                                                            <td class="mobile" style="text-align: center;">33</td>
+                                                            <td class="post-column mobile" >3,302</td>
+                                                            <td class="post-column mobile" >21</td>
+                                                            <td class="post-column mobile" >33</td>
+                                                            <td class="post-column mobile" >33</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -231,10 +229,10 @@
                                 </div>
                             </div>
                         </section>
-                    </div>
+                    </main>
                 </div>
             </div>
-        </main>
+        </div>
     </div>
 	
 
