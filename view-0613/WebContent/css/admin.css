@@ -88,9 +88,11 @@ main { margin-left: 200px; margin-top: 55px;}
 .ad-user-list-table th .user-id-column {width: 120px; }
 .ad-user-list-table th .user-date-column {width: 120px; }
 
-/*AdUserInfo.jsp*/
+/*info-btn*/
 .info-btn>button {color: #fff;}
 .info-btn:hover {background-color: #EF6E6B; border-radius: 4px;}
+
+/*AdUserInfo.jsp*/
 #adUserInfo table {text-align: center;}
 #adUserInfo table th {font-weight: 700; background-color: #F7EDE2; }
 #adUserInfo .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
@@ -99,6 +101,25 @@ main { margin-left: 200px; margin-top: 55px;}
 #adUserInfo .user-info-table .id-column { width: 120px;}
 #adUserInfo .user-info-table .tel-column { width: 120px;}
 #adUserInfo .user-info-table .date-column {width: 120px;}
+
+/*AdUserPostList.jsp*/
+#adUserPostList table {text-align: center;}
+#adUserPostList table th {font-weight: 700; background-color: #F7EDE2; }
+#adUserPostList .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+#adUserPostList .board-table { max-width: 1080px}
+#adUserPostList .number-column {width: 50px;}
+#adUserPostList .board-number-column {width: 120px;}
+#adUserPostList .comment-column {width: 100px;}
+#adUserPostList .data-column {width: 120px;}
+#adUserPostList .view-column {width: 100px;}
+
+
+
+
+
+
+
+
 
 
 
