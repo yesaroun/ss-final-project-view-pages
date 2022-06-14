@@ -19,7 +19,10 @@
 <!-- 네비게이션바 ===================================================== -->
 	<nav class="navbar navbar-expand-lg navbar-dark">
 		<a class="navbar-brand" href="./AdMain.jsp">MONEYLOG</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		<ol class="breadcrumb" style="height: 30px; background: #FFD97D;">
+            <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
+        </ol>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbar" aria-controls="navbar" aria-expanded="false"
 			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>

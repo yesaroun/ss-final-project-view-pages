@@ -33,9 +33,34 @@ section > .container {margin-top: 55px}
 
 /*Nav*/
 .navbar { background-color: #FFD97D;}
-.navbar-brand { margin-left: 10px;}
+.navbar-brand { margin-left: 10px; font-weight: 700;}
 
+/*Sidebar*/
 
+/*실질적인 각 내비게이션 메뉴들의 색상 등을 정의*/
+#sidebar .list-group-item 
+{
+    background-color: #F7EDE2;
+    color: #000000;
+    border: none;
+    white-space: nowrap;
+}
+/*내비게이션 아래 끝까지 나열*/
+#sidebar .list-group 
+{
+    background-color: #F7EDE2;
+    min-height: 100vh;
+}
+/*메뉴를 선택했을 때 부모 요소의 색상을 변경해줌*/
+#sidebar .list-group .list-group-item[aria-expanded="true"] 
+{
+    background-color: #F7EDE2;
+}
+/*메뉴를 선택했을 때 자식 요소의 색상을 변경해줌*/
+#sidebar .list-group .list-group-item:not(.collapsed) 
+{
+    background-color: #F7EDE2;
+}
 
 
 

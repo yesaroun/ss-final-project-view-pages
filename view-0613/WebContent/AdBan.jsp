@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adBanInfo.jsp"
+	    window.location.href = "./adBanInfo.jsp"
 	}
 </script>
 
@@ -42,24 +42,6 @@
                 
             </div>
             <div class="span10" style="margin-left: 200px;">
-                <div class="container">
-                    <!-- 안내문??? ===================================================== -->
-                    <div class="row">
-                        <div class="col">
-                            <!--
-                            <ol class="breadcrumb">
-                                <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
-                            </ol>
-                            -->
-                            <ol class="breadcrumb">
-                                <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
-                            </ol>
-                            
-                        </div>
-                    </div>
-                    <!-- 안내문??? ===================================================== -->
-                    
-                </div>
                 
                 <div class="row">
                     
