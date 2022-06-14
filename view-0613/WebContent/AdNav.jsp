@@ -19,7 +19,7 @@
 	<!-- 네비게이션바 ===================================================== -->
 	<nav class="navbar navbar-expand-lg navbar-dark">
 		<a class="navbar-brand" href="./index.jsp">MONEYLOG</a>
-		<ol class="breadcrumb" style="height: 30px; background: #FFD97D;">
+		<ol class="breadcrumb mobile" style="height: 30px; background: #FFD97D;">
             <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
         </ol>
         <button class="navbar-toggler" type="button" data-toggle="collapse"

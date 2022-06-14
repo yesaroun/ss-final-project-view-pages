@@ -54,7 +54,7 @@
         </header>	
 
         <div class="container-fluid">
-            <div class="row-fluid ad-main">
+            <div class="row-fluid">
                 <div class="span2">
                     <!-- ○ 좌측 메뉴바 include -->
                     <jsp:include page="./AdMenuMain.jsp"></jsp:include>
