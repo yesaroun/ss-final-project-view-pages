@@ -21,8 +21,12 @@ h3, h4{font-weight: 700;}
 h5, h6{font-weight: 500;}
 
 header {position: fixed; top: 0; z-index: 100; width: 100vw;}
+/*로그인스타일*/
 section > .container {margin-top: 55px}
+/*메인스타일*/
 main { margin-left: 200px; margin-top: 55px;}
+/*버튼 스타일*/
+.btn {background-color: #FF9B85; border: none;}
 
 /*AdLogin.jsp*/
 .login-title {margin-top: 100px; }
@@ -37,7 +41,6 @@ main { margin-left: 200px; margin-top: 55px;}
 .navbar-brand { margin-left: 10px; font-weight: 700;}
 
 /*Sidebar*/
-
 /*실질적인 각 내비게이션 메뉴들의 색상 등을 정의*/
 #sidebar .list-group-item  { background-color: #F7EDE2; color: #000000; border: none; white-space: nowrap;  }
 /*내비게이션 아래 끝까지 나열*/
@@ -73,9 +76,49 @@ main { margin-left: 200px; margin-top: 55px;}
 }
 
 /*AdMain.jsp*/
-ad-main-table number-colum {width: 60px; text-align: center;}
-ad-main-table member-column {text-align: center;}
-ad-main-table post-column {text-align: center;}
+.ad-main-table .number-column {width: 60px; text-align: center;}
+.ad-main-table .member-column {text-align: center;}
+.ad-main-table .post-column {text-align: center;}
+
+/*AdUserList.jsp*/
+.ad-user-list-table th, tr {text-align: center;}
+.ad-user-list-table th .number-column { width: 60px; }
+.ad-user-list-table th .user-code-column { width: 120px;}
+.ad-user-list-table th .user-name-column {width: 80px;}
+.ad-user-list-table th .user-id-column {width: 120px; }
+.ad-user-list-table th .user-date-column {width: 120px; }
+
+/*AdUserInfo.jsp*/
+.info-btn>button {color: #fff;}
+.info-btn:hover {background-color: #EF6E6B; border-radius: 4px;}
+#adUserInfo table {text-align: center;}
+#adUserInfo table th {font-weight: 700; background-color: #F7EDE2; }
+#adUserInfo .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+#adUserInfo .user-info-table .code-column {width: 120px;}
+#adUserInfo .user-info-table .name-column {width: 80px;}
+#adUserInfo .user-info-table .id-column { width: 120px;}
+#adUserInfo .user-info-table .tel-column { width: 120px;}
+#adUserInfo .user-info-table .date-column {width: 120px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*board???*/

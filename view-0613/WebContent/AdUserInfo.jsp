@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adUserList.jsp"
+	    window.location.href = "./adUserList.jsp"
 	}
 </script>
 
@@ -23,196 +23,159 @@
 <link rel="stylesheet" href="./css/custom.css">
 </head>
 <body>
-	<!-- ○ 상단 네비게이션 include -->
-	<jsp:include page="./AdNavManage.jsp"></jsp:include>
-	
-	<!-- 여백이 없는 반응형 웹을 만들때 container-fluid 사용 -->
-    <div class="container-fluid">
-    	<div class="row d-flex d-md-block flex-nowrap wrapper">
-            <nav class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar">
-            	<!-- ○ 좌측 메뉴바 include -->
-                <jsp:include page="./AdMenuManage.jsp"></jsp:include>
-            </nav>
+    <div class="wrap">
+        <!-- ○ 상단 네비게이션 include -->
+        <header>
+            <header>
+                <!-- ○ 상단 네비게이션 include -->
+                <jsp:include page="./AdNavManage.jsp"></jsp:include>
+            </header>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span2">
+                    <!-- ○ 좌측 메뉴바 include -->
+                    <jsp:include page="./AdMenuManage.jsp"></jsp:include>
+                </div>
+            </div>
+            
+            <div class="span10">
+                <main id="adUserInfo">
+                    <section>
+                        <div class="row">
+                            <div class="col-sm-12 m-3">
+                                <div class="btn-group float-left info-btn">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 상세 정보</button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="./adUserInfo.jsp" style="background-color: #F0B1A8;">상세 정보</a>
+                                        <a class="dropdown-item" href="./adUserPostList.jsp">게시글 내역</a>
+                                        <a class="dropdown-item" href="./adUserCmntList.jsp">댓글 내역</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="row">
+                            <!-- 계정정보 -->
+                            <div class="col-md-12">
+                                <div class="list-group">
+                                    <h4>계정정보<small> 선택한 회원의 기본 계정정보 입니다.</small></h4>
+                                    <div class="list-group-item">
+                                        <div class="list-group">
+                                            <table class="table user-info-table">
+                                                <tbody>
+                                                    <!-- 계정 정보 -->
+                                                    <tr>
+                                                        <th class="code-column" >이용자코드</th>
+                                                        <th class="name-column" >이름</th>
+                                                        <th class="id-column mobile">아이디</th>
+                                                        <th class="tel-column mobile" >전화번호</th>
+                                                        <th class="date-column mobile" >가입일자</th>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td >001001</td>
+                                                        <td >이윤윤</td>
+                                                        <td class="mobile" >test@test.com</td>
+                                                        <td class="mobile" >010-0000-0000</td>
+                                                        <td class="mobile" >2022-06-05</td>
+                                                    </tr>
+                                            
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- 활용정보1 -->
+                            <div class="col-md-12">
+                                <br>
+                                <div class="list-group">
+                                    <h4>활용정보<small> 선택한 회원의 활용정보 입니다.</small></h4>
+                                    <div class="list-group-item">
+                                        <div class="list-group">
+                                            <table class="table">
+                                                <tbody>
+                                                    <!-- 계정 정보 -->
+                                                    <tr>
+                                                        <th >주민번호</th>
+                                                        <th class="mobile">반려동물</th>
+                                                        <th class="mobile">결혼여부</th>
+                                                        <th class="mobile">자녀수</th>
+                                                        <th class="mobile">총가구구성원수</th>
+                                                        <th class="mobile">차량운용대수</th>
+                                                        <th class="mobile">주거형태</th>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td >990304-2</td>
+                                                        <td class="mobile">2</td>
+                                                        <td class="mobile">미혼</td>
+                                                        <td class="mobile">0</td>
+                                                        <td class="mobile">1</td>
+                                                        <td class="mobile">1</td>
+                                                        <td class="mobile">전세</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2" >지역 1차</th>
+                                                        <th class="mobile" colspan="2" >지역 2차</th>
+                                                        <th colspan="2" >직업 1차</th>
+                                                        <th class="mobile" colspan="2" >직업 2차</th>
+                                                    </tr>
+                                                            
+                                                    <tr>
+                                                        <td colspan="2" >서울</td>
+                                                        <td class="mobile" colspan="2" >성동구</td>
+                                                        <td colspan="2" >IT/개발</td>
+                                                        <td class="mobile" colspan="2" >프론트엔드</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <!-- 신고내역 -->
+                            <div class="col-md-12">
+                                <br>
+                                <div class="list-group">
+                                    <h4>신고내역<small> 선택한 영구정지 회원의 지난 6개월 내 신고내역 입니다.</small></h4>
+                                    <div class="list-group-item">
+                                        <div class="list-group">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>신고처리코드</th>
+                                                        <th >신고처리일자</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">게시글122030</a></td>
+                                                        <td>2022/05/29</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
         </div>
-	
-		<!-- 안내 ===================================================== -->
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<ol class="breadcrumb">
-						<li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
-					</ol>
-				</div>
-			</div>
-		</div>
-		<!-- 안내 ===================================================== -->
-		
-		<!-- 헤더 ===================================================== -->
-		<header id="header">
-			<div class="container p-3 bg-dark text-white">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="btn-group float-left">
-							<button type="button" class="btn btn-success dropdown-toggle"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								상세 정보 ▼</button>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="./adUserInfo.jsp" style="background-color: #1fa766;">상세 정보</a>
-								<a class="dropdown-item" href="./adUserPostList.jsp">게시글 내역</a>
-								<a class="dropdown-item" href="./adUserCmntList.jsp">댓글 내역</a>
-							</div>
-						</div>
-						
-						<div class="btn-group float-right">
-							<button type="button" class="btn btn-dark" onclick="newPage()"> 돌아가기 </button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- 헤더 ===================================================== -->
-		
-		
-		<div class="container">
-			<div class="row">
-				<!-- 계정정보 -->
-				<div class="col-md-12">
-
-					<div class="list-group">
-						<h4>계정정보<small> 선택한 회원의 기본 계정정보 입니다.</small></h4>
-						<div class="list-group-item">
-							<div class="list-group">
-								<table class="table">
-									<tbody>
-									
-										<!-- 계정 정보 -->
-										<tr>
-											<th style="width: 120px; text-align: center;">이용자코드</th>
-											<th style="width: 80px; text-align: center;">이름</th>
-											<th class="mobile" style="width: 120px; text-align: center;">아이디</th>
-											<th class="mobile" style="width: 120px; text-align: center;">전화번호</th>
-											<th class="mobile" style="width: 120px; text-align: center;">가입일자</th>
-										</tr>
-										
-										<tr>
-											<td style="text-align: center;">001001</td>
-											<td style="text-align: center;">이윤윤</td>
-											<td class="mobile" style="text-align: center;">test@test.com</td>
-											<td class="mobile" style="text-align: center;">010-0000-0000</td>
-											<td class="mobile" style="text-align: center;">2022-06-05</td>
-										</tr>
-								
-									</tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
-						
-						
-				<!-- 활용정보1 -->
-				<div class="col-md-12">
-					<br>
-					<div class="list-group">
-						<h4>활용정보<small> 선택한 회원의 활용정보 입니다.</small></h4>
-						<div class="list-group-item">
-							<div class="list-group">
-								<table class="table">
-									<tbody>
-									
-										<!-- 계정 정보 -->
-										<tr>
-											<th style="text-align: center;">주민번호</th>
-											<th style="text-align: center;">반려동물</th>
-											<th style="text-align: center;">결혼여부</th>
-											<th style="text-align: center;">자녀수</th>
-											<th style="text-align: center;">총가구구성원수</th>
-											<th style="text-align: center;">차량운용대수</th>
-											<th style="text-align: center;">주거형태</th>
-										</tr>
-										
-										<tr>
-											<td style="text-align: center;">990304-2</td>
-											<td style="text-align: center;">2</td>
-											<td style="text-align: center;">미혼</td>
-											<td style="text-align: center;">0</td>
-											<td style="text-align: center;">1</td>
-											<td style="text-align: center;">1</td>
-											<td style="text-align: center;">전세</td>
-										</tr>
-										
-										<!-- 계정 정보 -->
-										<tr>
-											<th colspan="2" style="text-align: center;">지역 1차</th>
-											<th colspan="2" style="text-align: center;">지역 2차</th>
-											<th colspan="2" style="text-align: center;">직업 1차</th>
-											<th colspan="2" style="text-align: center;">직업 2차</th>
-										</tr>
-												
-										<tr>
-											<td colspan="2" style="text-align: center;">서울</td>
-											<td colspan="2" style="text-align: center;">성동구</td>
-											<td colspan="2" style="text-align: center;">IT/개발</td>
-											<td colspan="2" style="text-align: center;">프론트엔드</td>
-										</tr>
-								
-									</tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			
-			<!-- 신고내역 -->
-			<div class="col-md-12">
-				<br>
-				<div class="list-group">
-					<h4>신고내역<small> 선택한 영구정지 회원의 지난 6개월 내 신고내역 입니다.</small></h4>
-					<div class="list-group-item">
-						<div class="list-group">
-							<table class="table">
-								<tbody>
-								
-									<!-- 계정 정보 -->
-									<tr>
-										<th style="width: 150px; text-align: center;">신고처리코드</th>
-										<th style="width: 150px; text-align: center;">신고처리일자</th>
-									</tr>
-									
-									<tr>
-										<td style="text-align: center;"><a href="">게시글122030</a></td>
-										<td style="text-align: center;">2022/05/29</td>
-									</tr>
-									
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<!-- 밑에 공백만드는용 ㅠ -->
-			<br><br><br><br><br><br><br><br><br><br>
-			
-			
-		</div>
-	</div>
-
-
-	<footer class="bg-dark mt-4 p-5 text-center" style="color: #FFFFFF;">
-		머니로그의 푸터 부분입니다. </footer>
-
-
-	<!-- 제이쿼리 자바스크립트 추가하기 -->
+    </div>
+    
 	<script src="./js/jquery-3.2.1.min.js"></script>
-	<!-- Popper 자바스크립트 추가하기 -->
 	<script src="./js/popper.min.js"></script>
-	<!-- 부트스트랩 자바스크립트 추가하기 -->
 	<script src="./js/bootstrap.min.js"></script>
-	<!-- MDB 라이브러리 추가하기 <== chart!!!! **** -->
-	<script src="./js/mdb.min.js"></script>
 
 </body>
 </html>

@@ -109,7 +109,7 @@
                                         <h4>공지사항<small> 페이지를 관리하세요.</small></h4>
             
                                         <div class="list-group-item">
-                                            <div class="list-group">
+                                            <div class="list-group table-container">
                                                 <table class="table ad-main-table">
                                                     <tbody>
                                                         <!-- 게시글 -->
@@ -172,19 +172,19 @@
                                         <h4>신규회원 현황<small></small></h4>
                 
                                         <div class="list-group-item">
-                                            <div class="list-group">
+                                            <div class="list-group  table-container">
                                                 <table class="table ad-main-table">
                                                     <tbody>
                                                     
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <th class="member-column mobile" >전체 회원</th>
+                                                            <th class="member-column" >전체 회원</th>
                                                             <th class="member-column mobile" >신규 회원</th>
                                                             <th class="member-column mobile">정지 회원</th>
                                                         </tr>
                                                         
                                                         <tr>
-                                                            <td class="member-column mobile">3,302</td>
+                                                            <td class="member-column">3,302</td>
                                                             <td class="member-column mobile">21</td>
                                                             <td class="member-column mobile">33</td>
                                                         </tr>
@@ -203,20 +203,20 @@
                                         <h4>머니로그 현황<small></small></h4>
                 
                                         <div class="list-group-item">
-                                            <div class="list-group">
+                                            <div class="list-group  table-container">
                                                 <table class="table ad-main-table">
                                                     <tbody>
                                                     
                                                         <!-- 게시글 -->
                                                         <tr>
-                                                            <th class="post-column mobile" >전체 게시글</th>
+                                                            <th class="post-column" >전체 게시글</th>
                                                             <th class="post-column mobile" >신규 게시글</th>
                                                             <th class="post-column mobile" >비공개 게시글</th>
                                                             <th class="post-column mobile" >비공개 댓글</th>
                                                         </tr>
                                                         
                                                         <tr>
-                                                            <td class="post-column mobile" >3,302</td>
+                                                            <td class="post-column" >3,302</td>
                                                             <td class="post-column mobile" >21</td>
                                                             <td class="post-column mobile" >33</td>
                                                             <td class="post-column mobile" >33</td>
@@ -234,20 +234,11 @@
             </div>
         </div>
     </div>
-	
 
-
-	<!-- 제이쿼리 자바스크립트 추가하기 -->
 	<script src="./js/jquery-3.2.1.min.js"></script>
-	<!-- Popper 자바스크립트 추가하기 -->
 	<script src="./js/popper.min.js"></script>
-	<!-- 부트스트랩 자바스크립트 추가하기 -->
 	<script src="./js/bootstrap.min.js"></script>
-	<!-- MDB 라이브러리 추가하기 <== chart!!!! **** -->
 	<script src="./js/mdb.min.js"></script>
-
-	
-	
 	
 	<script>
 		
