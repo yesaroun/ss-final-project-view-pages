@@ -43,8 +43,8 @@
                         <section>
                             <div class="row">
                                 <div class="col-sm-12 m-3">
-                                    <div class="btn-group float-left info-btn">
-                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 상세 정보</button>
+                                    <div class="btn-group float-left">
+                                        <button type="button" class="btn dropdown-toggle info-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 상세 정보</button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="./adUserInfo.jsp" style="background-color: #F0B1A8;">상세 정보</a>
                                             <a class="dropdown-item" href="./adUserPostList.jsp">게시글 내역</a>

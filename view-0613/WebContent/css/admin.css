@@ -27,6 +27,7 @@ section > .container {margin-top: 55px}
 main { margin-left: 200px; margin-top: 55px;}
 /*버튼 스타일*/
 .btn {background-color: #FF9B85; border: none;}
+.btn:hover {background-color: #EF6E6B; border-radius: 4px;}
 
 /*AdLogin.jsp*/
 .login-title {margin-top: 100px; }
@@ -89,7 +90,7 @@ main { margin-left: 200px; margin-top: 55px;}
 .ad-user-list-table th .user-date-column {width: 120px; }
 
 /*info-btn*/
-.info-btn>button {color: #fff;}
+.info-btn {color: #fff;}
 .info-btn:hover {background-color: #EF6E6B; border-radius: 4px;}
 
 /*AdUserInfo.jsp*/
@@ -113,10 +114,38 @@ main { margin-left: 200px; margin-top: 55px;}
 #adUserPostList .data-column {width: 120px;}
 #adUserPostList .view-column {width: 100px;}
 
+/*AdUserCmntList.jsp*/
+#adUserCmmtList table {text-align: center;}
+#adUserCmmtList table th {font-weight: 700; background-color: #F7EDE2; }
+#adUserCmmtList .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+#adUserCmmtList table {max-width: 1080px;}
+#adUserCmmtList table .number-column {width: 50px;}
+#adUserCmmtList table .board-number-column {width: 120px;}
+#adUserCmmtList table .date-column {width: 120px;}
 
+/*AdBan.jsp*/
+#adBan table {text-align: center;}
+#adBan table th {font-weight: 700; background-color: #F7EDE2; }
+#adBan .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+#adBan .number-column {width: 60px;}
+#adBan .user-code-column {width: 120px;}
+#adBan .name-column {width: 80px;}
+#adBan .id-column {width: 120px;}
+#adBan .ban-date-column {width: 120px;}
+#adBan .rept-column {width: 120px;}
 
+/*AdBanInfo.jsp*/
+#adBanInfo table {text-align: center;}
+#adBanInfo table th {font-weight: 700; background-color: #F7EDE2; }
+#adBanInfo .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+#adBanInfo .rept {width: 150px;}
+#adBanInfo .user-code-column {width: 120px;}
+#adBanInfo .name-column {width: 80px;}
+#adBanInfo .id-column {width: 120px;}
+#adBanInfo .tel-column {width: 120px;}
+#adBanInfo .date-column {width: 120px;}
 
-
+/*AdPostReptList.jsp*/
 
 
 

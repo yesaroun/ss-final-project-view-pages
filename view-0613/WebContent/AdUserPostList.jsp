@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>커뮤니티 웹 사이트</title>
+<title>게시글 내역 목록</title>
 
 <script type="text/javascript">
 	function newPage()
@@ -43,7 +43,7 @@
                         <section>
                             <div class="row">
                                 <div class="col-sm-12 m-3">
-                                    <div class="btn-group float-left info-btn">
+                                    <div class="btn-group float-left">
                                         <button type="button" class="btn info-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 게시글 내역 </button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="./adUserInfo.jsp">상세 정보</a>
@@ -153,15 +153,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-		
-		<div class="container">
-			
-		</div>
-	</div>
 
 
 	<script src="./js/jquery-3.2.1.min.js"></script>

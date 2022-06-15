@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adUserInfo.jsp"
+        window.location.href = "./adUserInfo.jsp"
 	}
 </script>
 
