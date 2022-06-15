@@ -38,7 +38,7 @@
                 <jsp:include page="./AdMenuMoney.jsp"></jsp:include> 
             </div>
             <div class="span10">
-                <main id="adPostReptList">
+                <main id="adPostRept">
                     <section>
                         <div class="row">
                             <!-- 신고접수 -->
@@ -46,25 +46,21 @@
                                 <div class="list-group">
                                     <div class="list-group">
                                     <br><br>
-                                    <h4>[ 게시글 ] 신고 접수<small></small></h4>
-
+                                    <h4>[ 게시글 ] 신고 접수</h4>
                                         <div class="list-group-item">
                                             <table class="table">
                                                 <tbody>
-                                                        
-                                                    <!-- 신고 접수 -->
                                                     <tr>
-                                                        <th colspan="3" style="text-align: center;">신고 번호</th>
-                                                        <th colspan="3" style="text-align: center;">접수 일자</th>
-                                                        <th colspan="3" style="text-align: center;">게시글 번호</th>
-                                                        <th colspan="3" class="mobile" style="text-align: center;">신고자</th>
+                                                        <th colspan="3">신고 번호</th>
+                                                        <th colspan="3">접수 일자</th>
+                                                        <th colspan="3">게시글 번호</th>
+                                                        <th colspan="3" class="mobile">신고자</th>
                                                     </tr>
-                                                    
                                                     <tr>
-                                                        <td colspan="3" style="text-align: center;">33</td>
-                                                        <td colspan="3" style="text-align: center;">2020-05-20</td>
-                                                        <td colspan="3" style="text-align: center;"><a href="./boardView.html" style="color: #000000;">2032</a></td>
-                                                        <td colspan="3" class="mobile" style="text-align: center;">test@test.com</td>
+                                                        <td colspan="3">33</td>
+                                                        <td colspan="3">2020-05-20</td>
+                                                        <td colspan="3"><a href="./boardView.html">2032</a></td>
+                                                        <td colspan="3" class="mobile">test@test.com</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -81,23 +77,20 @@
                                 <div class="list-group">
                                     <div class="list-group">
                                     <br><br>
-                                    <h4>승인 여부<small></small></h4>
-
+                                    <h4>승인 여부</h4>
                                         <div class="list-group-item">
                                             <table class="table">
                                                 <tbody>
-                                                        
                                                     <!-- 승인 여부 -->
                                                     <tr>
-                                                        <th colspan="4" style="text-align: center;">승인 여부</th>
-                                                        <th colspan="4" style="text-align: center;">처리자</th>
-                                                        <th colspan="4" class="mobile" style="text-align: center;">처리 일자</th>
+                                                        <th colspan="4">승인 여부</th>
+                                                        <th colspan="4">처리자</th>
+                                                        <th colspan="4" class="mobile">처리 일자</th>
                                                     </tr>
-                                                            
                                                     <tr>
-                                                        <td colspan="4" style="text-align: center;"> - </td>
-                                                        <td colspan="4" style="text-align: center;"> - </td>
-                                                        <td colspan="4" class="mobile" style="text-align: center;"> - </td>
+                                                        <td colspan="4"> - </td>
+                                                        <td colspan="4"> - </td>
+                                                        <td colspan="4" class="mobile"> - </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -114,36 +107,29 @@
                                 <div class="list-group">
                                     <div class="list-group">
                                     <br><br>
-                                    <h4>신고 내용<small></small></h4>
-
+                                    <h4>신고 내용</h4>
                                         <div class="list-group-item">
                                             <table class="table">
                                                 <tbody>
-                                                        
                                                     <!-- 신고 내용 -->
                                                     <tr>
-                                                        <th colspan="12" style="text-align: center;">게시글 내용</th>
+                                                        <th colspan="12">게시글 내용</th>
                                                     </tr>
-                                                            
                                                     <tr>
-                                                        <td colspan="12" style="text-align: center;">어쩌구저쩌구 게시글내용 부분입니다~</td>
+                                                        <td colspan="12">어쩌구저쩌구 게시글내용 부분입니다~</td>
                                                     </tr>
-                                                    
                                                     <tr>
-                                                        <th colspan="6"  style="text-align: center;">신고 카테고리</th>
-                                                        <th colspan="6" style="text-align: center;">신고 세부 사유</th>
+                                                        <th colspan="6">신고 카테고리</th>
+                                                        <th colspan="6">신고 세부 사유</th>
                                                     </tr>
-                                                            
                                                     <tr>
-                                                        <td colspan="6" style="text-align: center;">기타</td>
-                                                        <td colspan="6" style="text-align: center;">이상한 글을 썼어요</td>
+                                                        <td colspan="6">기타</td>
+                                                        <td colspan="6">이상한 글을 썼어요</td>
                                                     </tr>
-                                                    
-                                                    
                                                     <!-- 게시글 버튼 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn" style="width: 100%;" data-toggle="modal" data-target="#modal" onclick="newPage()">게시글 보러가기</button>
+                                                            <button class="btn" style="width: 100%; background-color: #F5CAC3;" data-toggle="modal" data-target="#modal" onclick="newPage()">게시글 보러가기</button>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -162,23 +148,20 @@
                                     <div class="list-group">
                                     <br><br>
                                     <h4>신고 처리<small></small></h4>
-
                                         <div class="list-group-item">
                                             <table class="table">
                                                 <tbody>
-                                                        
                                                     <!-- 신고처리 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn btn-danger" style="width: 49%;" data-toggle="modal" data-target="#modal">승인</button>
-                                                            <button class="btn btn-success" style="width: 50%;" data-toggle="modal" data-target="#modal">반려</button>
+                                                            <button class="btn" style="width: 49%;" data-toggle="modal" data-target="#modal">승인</button>
+                                                            <button class="btn" style="width: 50%; background-color: #F7EDE2;" data-toggle="modal" data-target="#modal">반려</button>
                                                         </td>
                                                     </tr>
-                                                    
                                                     <!-- 돌아가기 버튼 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn" style="width: 100%;" data-toggle="modal" data-target="#modal" onclick="newPage()">돌아가기</button>
+                                                            <button class="btn" style="width: 100%; background-color: #F5CAC3;" data-toggle="modal" data-target="#modal" onclick="newPage()">돌아가기</button>
                                                         </td>
                                                     </tr>
                                                 </tbody>

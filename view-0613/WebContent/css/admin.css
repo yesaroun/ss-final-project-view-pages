@@ -157,9 +157,22 @@ main { margin-left: 200px; margin-top: 55px;}
 #adPostReptList table tbody .content-column {text-align: left;}
 
 /*AdPostRept.jsp*/
+#adPostRept table {text-align: center;}
+#adPostRept table th {font-weight: 700; background-color: #F7EDE2; }
+#adPostRept .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
 
+/*adCmntReptList.jsp*/
+#adCmntReptList table {text-align: center;}
+#adCmntReptList table th {font-weight: 700; background-color: #F7EDE2; }
+#adCmntReptList .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
+/*AdCmntRept.jsp*/
+#adCmntRept table {text-align: center;}
+#adCmntRept table th {font-weight: 700; background-color: #F7EDE2; }
+#adCmntRept .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+
+/*AdPostList.jsp*/
 
 
 

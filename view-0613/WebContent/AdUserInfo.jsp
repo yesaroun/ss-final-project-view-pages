@@ -88,7 +88,8 @@
                                 </div>
                             </div>
                         </div>
-
+                    </section>
+                    <section>
                         <div class="row">
                             <!-- 활용정보1 -->
                             <div class="col-md-12">
@@ -139,7 +140,8 @@
                                 </div>
                             </div>
                         </div>
-                        
+                    </section>
+                    <section>
                         <div class="row">
                             <!-- 신고내역 -->
                             <div class="col-md-12">
