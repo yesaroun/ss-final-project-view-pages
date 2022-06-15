@@ -11,21 +11,20 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adPostList.jsp"
+	    window.location.href = "./adPostList.jsp"
 	}
 	
 	function newPage2()
 	{
-	  window.location.href = "./postCont.jsp"
+	    window.location.href = "./postCont.jsp"
 	}
 </script>
 
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- 부트스트랩 CSS 추가하기 -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/admin.css">
 </head>
 <body>
 	<!-- ○ 상단 네비게이션 include -->

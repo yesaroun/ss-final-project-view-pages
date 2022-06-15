@@ -146,6 +146,17 @@ main { margin-left: 200px; margin-top: 55px;}
 #adBanInfo .date-column {width: 120px;}
 
 /*AdPostReptList.jsp*/
+#adPostReptList table {text-align: center;}
+#adPostReptList table th {font-weight: 700; background-color: #F7EDE2; }
+#adPostReptList .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+#adPostReptList table .number-column {width:50px;}
+#adPostReptList table .board-number-column {width:130px}
+#adPostReptList table .rept-column {width:130px;}
+#adPostReptList table .date-column {width:130px;}
+#adPostReptList table .check-column {width:100px;}
+#adPostReptList table tbody .content-column {text-align: left;}
+
+/*AdPostRept.jsp*/
 
 
 

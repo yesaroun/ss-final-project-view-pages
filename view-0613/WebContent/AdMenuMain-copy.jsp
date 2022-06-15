@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/admin.css">
 </head>
 <body>
 	<div class="list-group border-0 card text-center text-md-left">

@@ -18,7 +18,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/admin.css">
 </head>
 <body>
 
@@ -70,62 +70,38 @@
                                                     </tr>
                                                     </thead>
                                                     <tbody>
-                                                    
-                                                    <tr>
-                                                        <td scope="row" class="mobile" >5</td>
-                                                        <td scope="row" class="mobile" >
-                                                            <a href="./boardView.html" >2032</a>
-                                                        </td>
-                                                        <td> 가게부 잘 보고갑니다 참고할게요 </td>
-                                                        <td class="mobile" >2018-01-05</td>
-                                                    </tr>
-                                                    
-                                                    
-                                                    <tr>
-                                                        <td scope="row" class="mobile">5</td>
-                                                        <td scope="row" class="mobile">
-                                                            <a href="./boardView.html" >2032</a>
-                                                        </td>
-                                                        <td> 가게부 잘 보고갑니다 참고할게요 </td>
-                                                        <td class="mobile">2018-01-05</td>
-                                                    </tr>
-                                                    
-                                                    <tr>
-                                                        <td scope="row" class="mobile">5</td>
-                                                        <td scope="row" class="mobile">
-                                                            <a href="./boardView.html" >2032</a>
-                                                        </td>
-                                                        <td> 가게부 잘 보고갑니다 참고할게요 </td>
-                                                        <td class="mobile">2018-01-05</td>
-                                                    </tr>
-                                                    
-                                                    <tr>
-                                                        <td scope="row" class="mobile">5</td>
-                                                        <td scope="row" class="mobile">
-                                                            <a href="./boardView.html" >2032</a>
-                                                        </td>
-                                                        <td> 가게부 잘 보고갑니다 참고할게요 </td>
-                                                        <td class="mobile">2018-01-05</td>
-                                                    </tr>
-                                                    
-                                                    <tr>
-                                                        <td scope="row" class="mobile">5</td>
-                                                        <td scope="row" class="mobile">
-                                                            <a href="./boardView.html" >2032</a>
-                                                        </td>
-                                                        <td> 가게부 잘 보고갑니다 참고할게요 </td>
-                                                        <td class="mobile">2018-01-05</td>
-                                                    </tr>
-                                                    
-                                                    <tr>
-                                                        <td scope="row" class="mobile">5</td>
-                                                        <td scope="row" class="mobile">
-                                                            <a href="./boardView.html" >2032</a>
-                                                        </td>
-                                                        <td> 가게부 잘 보고갑니다 참고할게요 </td>
-                                                        <td class="mobile">2018-01-05</td>
-                                                    </tr>
-                                                    
+                                                        <tr>
+                                                            <td scope="row" class="mobile" >5</td>
+                                                            <td scope="row" class="mobile" >
+                                                                <a href="./boardView.html" >2032</a>
+                                                            </td>
+                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요~~~</a> </td>
+                                                            <td class="mobile" >2018-01-05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row" class="mobile" >5</td>
+                                                            <td scope="row" class="mobile" >
+                                                                <a href="./boardView.html" >2032</a>
+                                                            </td>
+                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요 !! 가게부 잘 보고갑니다 참고할게요~~가게부 잘 보고갑니다 참고할게요@@</a> </td>
+                                                            <td class="mobile" >2018-01-05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row" class="mobile" >5</td>
+                                                            <td scope="row" class="mobile" >
+                                                                <a href="./boardView.html" >2032</a>
+                                                            </td>
+                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요</a> </td>
+                                                            <td class="mobile" >2018-01-05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row" class="mobile" >5</td>
+                                                            <td scope="row" class="mobile" >
+                                                                <a href="./boardView.html" >2032</a>
+                                                            </td>
+                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요</a> </td>
+                                                            <td class="mobile" >2018-01-05</td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </div>

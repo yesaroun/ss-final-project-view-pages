@@ -11,12 +11,12 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adPostList.jsp"
+	    window.location.href = "./adPostList.jsp"
 	}
 	
 	function newPage2()
 	{
-	  window.location.href = "./adCmntInfo.jsp"
+	    window.location.href = "./adCmntInfo.jsp"
 	}
 	
 </script>
@@ -24,9 +24,8 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- 부트스트랩 CSS 추가하기 -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/admin.css">
 </head>
 <body>
 	<!-- ○ 상단 네비게이션 include -->
@@ -168,24 +167,13 @@
 		</div>
 	</div>
 
-
-	<!-- 밑에 공백만드는용 ㅠ -->
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
-
-
 	<footer class="bg-dark mt-4 p-5 text-center" style="color: #FFFFFF;">
 		머니로그의 푸터 부분입니다. </footer>
 
 
-	<!-- 제이쿼리 자바스크립트 추가하기 -->
 	<script src="./js/jquery-3.2.1.min.js"></script>
-	<!-- Popper 자바스크립트 추가하기 -->
 	<script src="./js/popper.min.js"></script>
-	<!-- 부트스트랩 자바스크립트 추가하기 -->
 	<script src="./js/bootstrap.min.js"></script>
-	<!-- MDB 라이브러리 추가하기 <== chart!!!! **** -->
 	<script src="./js/mdb.min.js"></script>
 
 </body>
