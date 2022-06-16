@@ -43,7 +43,7 @@
                 <jsp:include page="./AdMenuMoney.jsp"></jsp:include>
             </div>
             <div class="span10">
-                <main id="adPostInfo">
+                <main id="adCmntInfo">
                     <section>
                         <div class="row">
                             <!-- 댓글 상세정보 -->

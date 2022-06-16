@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>커뮤니티 웹 사이트</title>
+<title>회원목록</title>
 
 <script type="text/javascript">
 	function newPage()
@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/admin.css">
 </head>
+
 <body>
     <div class="wrap">
         <!-- ○ 상단 네비게이션 include -->
