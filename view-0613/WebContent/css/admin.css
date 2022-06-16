@@ -173,8 +173,24 @@ main { margin-left: 200px; margin-top: 55px;}
 #adCmntRept .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
 /*AdPostList.jsp*/
+#adPostList table {text-align: center;}
+#adPostList table th {font-weight: 700; background-color: #F7EDE2; }
+#adPostList .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
+/*AdPostOpen.jsp*/
+#adPostOpen table {text-align: center;}
+#adPostOpen table th {font-weight: 700; background-color: #F7EDE2; }
+#adPostOpen .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
+/*AdPostPrivate.jsp*/
+#adPostPrivate table {text-align: center;}
+#adPostPrivate table th {font-weight: 700; background-color: #F7EDE2; }
+#adPostPrivate .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+
+/*AdPostInfo.jsp*/
+#adPostInfo table {text-align: center;}
+#adPostInfo table th {font-weight: 700; background-color: #F7EDE2; }
+#adPostInfo .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
 
 
