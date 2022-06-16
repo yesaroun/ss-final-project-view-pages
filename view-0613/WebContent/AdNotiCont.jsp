@@ -25,7 +25,8 @@
 </head>
 <body>
 
-class="wrap">
+
+<div class="wrap">
     <header>
         <header>
             <!-- ○ 상단 네비게이션 include -->
