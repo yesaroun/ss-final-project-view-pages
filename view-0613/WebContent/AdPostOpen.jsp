@@ -144,17 +144,6 @@
     </div>
 </div>
 
-
-	
-	<!-- 여백이 없는 반응형 웹을 만들때 container-fluid 사용 -->
-    <div class="container-fluid">
-		
-		<div class="container">
-			
-		</div>
-	</div>
-
-
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>

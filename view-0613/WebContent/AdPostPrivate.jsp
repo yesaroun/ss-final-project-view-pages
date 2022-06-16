@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>커뮤니티 웹 사이트</title>
+<title>비공개 게시글 목록</title>
 
 <script type="text/javascript">
 	function newPage()
@@ -29,6 +29,7 @@
 <link rel="stylesheet" href="./css/admin.css">
 </head>
 <body>
+
 <div class="wrap">
     <header>
         <header>
@@ -54,7 +55,7 @@
                                 </div>
                                 
                                 <div class="btn-group float-right">
-                                    <button type="button" class="btn btn-success dropdown-toggle"
+                                    <button type="button" class="btn dropdown-toggle"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         비공개 </button>
                                     <div class="dropdown-menu">

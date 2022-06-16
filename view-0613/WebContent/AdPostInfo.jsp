@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>커뮤니티 웹 사이트</title>
+<title>게시글 상세 정보</title>
 
 <script type="text/javascript">
 	function newPage()

@@ -192,7 +192,25 @@ main { margin-left: 200px; margin-top: 55px;}
 #adPostInfo table th {font-weight: 700; background-color: #F7EDE2; }
 #adPostInfo .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
+/*AdCmntList.jsp*/
+#adCmntList table {text-align: center;}
+#adCmntList table th {font-weight: 700; background-color: #F7EDE2; }
+#adCmntList .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
+/*AdCmntOpen.jsp*/
+#adCmntOpen table {text-align: center;}
+#adCmntOpen table th {font-weight: 700; background-color: #F7EDE2; }
+#adCmntOpen .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+
+/*AdCmntPrivate.jsp*/
+#adCmntPrivate table {text-align: center;}
+#adCmntPrivate table th {font-weight: 700; background-color: #F7EDE2; }
+#adCmntPrivate .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
+
+/*AdCmntInfo.jsp*/
+#adCmntInfo table {text-align: center;}
+#adCmntInfo table th {font-weight: 700; background-color: #F7EDE2; }
+#adCmntInfo .list-group-item {border-radius: 4px; margin-top: 8px; margin-bottom: 20px;}
 
 
 
