@@ -22,8 +22,8 @@
         <main>
             <section>
                 <div class="container">
-                    <div class="row login-title">
-                        <div class="col-12">
+                    <div class="row login-title" >
+                        <div class="col-12" >
                             <h1>MONEYLOG</h1>
                         </div>
                         
