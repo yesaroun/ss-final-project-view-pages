@@ -62,28 +62,28 @@
                                     </tr>	
                                     <tr>
                                         <td>38</td>
-                                        <td>홈페이지 활용 방법을 모르겠어요</td>
+                                        <td><a href="AdQnaAnswer.jsp">홈페이지 활용 방법을 모르겠어요</a> </td>
                                         <td> - </td>
                                         <td>2022.05.17</td>					      	
                                     </tr>
                                         
                                     <tr>
                                         <td>37</td>
-                                        <td>가계부 입력 모르겠어요</td>
+                                        <td><a href="AdQnaAnswer.jsp">가계부 입력 모르겠어요</a></td>
                                         <td> - </td>
                                         <td>2022.05.10</td>	
                                     </tr>
                                     
                                     <tr>
                                         <td>36</td>
-                                        <td>머니의 전당이 뭔가요</td>
+                                        <td><a href="AdQnaAnswer.jsp">머니의 전당이 뭔가요</a></td>
                                         <td>완료</td>
                                         <td>2022.05.01</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>35</td>
-                                        <td>마이페이지가 어디있나요</td>
+                                        <td><a href="AdQnaAnswer.jsp">마이페이지가 어디있나요</a></td>
                                         <td>완료</td>
                                         <td>2022.04.23</td>
                                     </tr>

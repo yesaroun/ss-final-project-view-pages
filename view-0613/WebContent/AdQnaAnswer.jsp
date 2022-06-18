@@ -123,7 +123,7 @@ aria-hidden="true">
                 <img src="./img3/warning.png" width="50%;">
                 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" onclick="javascript:location.href='<%=cp%>/adQnaCont.jsp'">확인</button>
+                    <button type="button" class="btn btn-primary" onclick="javascript:location.href='<%=cp%>/AdQnaCont.jsp'">확인</button>
                 </div>
                 
             </form>
