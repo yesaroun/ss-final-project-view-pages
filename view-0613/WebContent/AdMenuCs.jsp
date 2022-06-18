@@ -18,14 +18,12 @@
             <div class="list-group border-0 card text-center text-md-left">
 		
                 <h4 class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><span class="d-none d-md-inline ml-1"> 고객지원</span></h1>
-		
-                <a href="#" class="list-group-item d-inline-block collapsed" data-toggle="collapse"
-                data-parent="#sidebar" aria-expanded="false">
+
+                <a href="AdNotiList.jsp" class="list-group-item d-inline-block collapsed" data-parent="#sidebar">
                     <img style="width: 20px;" src="./img2/list.svg"><span class="d-none d-md-inline ml-1"> 공지사항</span>
                 </a>
                 
-                <a href="#" class="list-group-item d-inline-block collapsed" data-toggle="collapse"
-                data-parent="#sidebar" aria-expanded="false">
+                <a href="AdQnaList.jsp" class="list-group-item d-inline-block collapsed" data-parent="#sidebar">
                     <img style="width: 20px;" src="./img2/help-circle.svg"><span class="d-none d-md-inline ml-1"> 문의글</span>
                 </a>
                 

@@ -46,9 +46,9 @@
                                 <div class="btn-group float-left">
                                     <button type="button" class="btn dropdown-toggle info-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 상세 정보</button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="./adUserInfo.jsp" style="background-color: #F0B1A8;">상세 정보</a>
-                                        <a class="dropdown-item" href="./adUserPostList.jsp">게시글 내역</a>
-                                        <a class="dropdown-item" href="./adUserCmntList.jsp">댓글 내역</a>
+                                        <a class="dropdown-item" href="./AdUserInfo.jsp" style="background-color: #F0B1A8;">상세 정보</a>
+                                        <a class="dropdown-item" href="./AdUserPostList.jsp">게시글 내역</a>
+                                        <a class="dropdown-item" href="./AdUserCmntList.jsp">댓글 내역</a>
                                     </div>
                                 </div>
                             </div>

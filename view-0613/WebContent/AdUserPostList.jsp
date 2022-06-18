@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adUserList.jsp"
+        window.location.href = "./adUserList.jsp"
 	}
 </script>
 
@@ -46,9 +46,9 @@
                                 <div class="btn-group float-left">
                                     <button type="button" class="btn info-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 게시글 내역 </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="./adUserInfo.jsp">상세 정보</a>
-                                        <a class="dropdown-item" href="./adUserPostList.jsp" style="background-color: #F0B1A8;">게시글 내역</a>
-                                        <a class="dropdown-item" href="./adUserCmntList.jsp">댓글 내역</a>
+                                        <a class="dropdown-item" href="./AdUserInfo.jsp">상세 정보</a>
+                                        <a class="dropdown-item" href="./AdUserPostList.jsp" style="background-color: #F0B1A8;">게시글 내역</a>
+                                        <a class="dropdown-item" href="./AdUserCmntList.jsp">댓글 내역</a>
                                     </div>
                                     
                                 </div>
@@ -80,7 +80,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" class="mobile" >2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile" >12</td>
                                                         <td class="mobile" >2018-01-05</td>
                                                         <td class="mobile" >235</td>
@@ -89,7 +89,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" class="mobile" >2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="./AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile" >12</td>
                                                         <td class="mobile" >2018-01-05</td>
                                                         <td class="mobile" >235</td>
@@ -99,7 +99,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile">5</td>
                                                         <td scope="row" class="mobile">2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="./AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile">12</td>
                                                         <td class="mobile">2018-01-05</td>
                                                         <td class="mobile">235</td>
@@ -108,7 +108,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile">5</td>
                                                         <td scope="row" class="mobile">2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="./AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile">12</td>
                                                         <td class="mobile">2018-01-05</td>
                                                         <td class="mobile">235</td>
@@ -117,7 +117,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" class="mobile" >2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="./AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile" >12</td>
                                                         <td class="mobile" >2018-01-05</td>
                                                         <td class="mobile" >235</td>
@@ -126,7 +126,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" class="mobile" >2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="./AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile" >12</td>
                                                         <td class="mobile" >2018-01-05</td>
                                                         <td class="mobile" >235</td>
@@ -135,7 +135,7 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" class="mobile" >2032</td>
-                                                        <td><a href="./boardView.html">#20대 #2마리 #전세 #개발자 #태그</a></td>
+                                                        <td><a href="./AdPostInfo.jsp">#20대 #2마리 #전세 #개발자 #태그</a></td>
                                                         <td class="mobile" >12</td>
                                                         <td class="mobile" >2018-01-05</td>
                                                         <td class="mobile" >235</td>

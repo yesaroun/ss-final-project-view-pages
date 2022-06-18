@@ -74,21 +74,21 @@
             
                                                 <!-- 이미지 -->
                                                 <div class="col-md-4 text-center p-5">
-                                                    <a href="./adPostReptList.jsp"><img src="./img/event.svg"></a>
+                                                    <a href="AdPostReptList.jsp"><img src="./img/event.svg"></a>
                                                     <h3>13</h3>
                                                     <h5>미처리된 게시글 신고</h5>
                                                 </div>
                                                 
                                                 <!-- 이미지 -->
                                                 <div class="col-md-4 text-center p-5">
-                                                    <a href="./adCmntReptList.jsp"><img src="./img/event.svg"></a>
+                                                    <a href="AdCmntReptList.jsp"><img src="./img/event.svg"></a>
                                                     <h3>31</h3>
                                                     <h5>미처리된 댓글 신고</h5>
                                                 </div>
             
                                                 <!-- 이미지 -->
                                                 <div class="col-md-4 text-center p-5">
-                                                    <a href="./문의글.jsp"><img src="./img/edit.svg"></a>
+                                                    <a href="AdQnaList.jsp"><img src="./img/edit.svg"></a>
                                                     <h3>21</h3>
                                                     <h5>미답변된 문의</h5>
                                                 </div>
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
     
-                            <div class="row">
+                            <div class="row mb-5">
                                 <div class="col-md-6">
                                     <div class="list-group">
                                         <!-- <a href="#" class="list-group-item active">회원 현황</a> -->
@@ -257,7 +257,7 @@
 					pointStrokeColor : "#fff",
 					pointHighlightFill : "#fff",
 					pointHighlightStroke : "rgba(220,220,220,1)",
-					data : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+					data : [ <%=data1%>, <%=data2%>, <%=data3%>, <%=data4%>, <%=data5%>, <%=data6%>, <%=data7%>, <%=data8%>, <%=data9%>, <%=data10%>, <%=data11%>, <%=data12%> ]
 				},
 				{
 					label : "탈퇴 회원 수",
@@ -267,7 +267,7 @@
 					pointStrokeColor : "#fff",
 					pointHighlightFill : "#fff",
 					pointHighlightStroke : "rgba(151,187,205,1)",
-					data : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+					data : [ <%=ldata1%>, <%=ldata2%>, <%=ldata3%>, <%=ldata4%>, <%=ldata5%>, <%=ldata6%>, <%=ldata7%>, <%=ldata8%>, <%=ldata9%>, <%=ldata10%>, <%=ldata11%>, <%=ldata12%> ]
 				} ]
 			},
 			options :

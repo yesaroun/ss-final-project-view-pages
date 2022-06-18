@@ -44,9 +44,9 @@
                                     <div class="btn-group float-left ">
                                         <button type="button" class="btn info-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 댓글 내역 </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="./adUserInfo.jsp">상세 정보</a>
-                                            <a class="dropdown-item" href="./adUserPostList.jsp">게시글 내역</a>
-                                            <a class="dropdown-item" href="./adUserCmntList.jsp" style="background-color: #F0B1A8;">댓글 내역</a>
+                                            <a class="dropdown-item" href="./AdUserInfo.jsp">상세 정보</a>
+                                            <a class="dropdown-item" href="./AdUserPostList.jsp">게시글 내역</a>
+                                            <a class="dropdown-item" href="./AdUserCmntList.jsp" style="background-color: #F0B1A8;">댓글 내역</a>
                                         </div>
                                     </div>
                                 </div>
@@ -73,33 +73,33 @@
                                                         <tr>
                                                             <td scope="row" class="mobile" >5</td>
                                                             <td scope="row" class="mobile" >
-                                                                <a href="./boardView.html" >2032</a>
+                                                                <a href="./AdCmntInfo.jsp" >2032</a>
                                                             </td>
-                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요~~~</a> </td>
+                                                            <td> <a href="./AdCmntInfo.jsp">가게부 잘 보고갑니다 참고할게요~~~</a> </td>
                                                             <td class="mobile" >2018-01-05</td>
                                                         </tr>
                                                         <tr>
                                                             <td scope="row" class="mobile" >5</td>
                                                             <td scope="row" class="mobile" >
-                                                                <a href="./boardView.html" >2032</a>
+                                                                <a href="./AdCmntInfo.jsp" >2032</a>
                                                             </td>
-                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요 !! 가게부 잘 보고갑니다 참고할게요~~가게부 잘 보고갑니다 참고할게요@@</a> </td>
+                                                            <td> <a href="./AdCmntInfo.jsp">가게부 잘 보고갑니다 참고할게요 !! 가게부 잘 보고갑니다 참고할게요~~가게부 잘 보고갑니다 참고할게요@@</a> </td>
                                                             <td class="mobile" >2018-01-05</td>
                                                         </tr>
                                                         <tr>
                                                             <td scope="row" class="mobile" >5</td>
                                                             <td scope="row" class="mobile" >
-                                                                <a href="./boardView.html" >2032</a>
+                                                                <a href="./AdCmntInfo.jsp" >2032</a>
                                                             </td>
-                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요</a> </td>
+                                                            <td> <a href="./AdCmntInfo.jsp">가게부 잘 보고갑니다 참고할게요</a> </td>
                                                             <td class="mobile" >2018-01-05</td>
                                                         </tr>
                                                         <tr>
                                                             <td scope="row" class="mobile" >5</td>
                                                             <td scope="row" class="mobile" >
-                                                                <a href="./boardView.html" >2032</a>
+                                                                <a href="./AdCmntInfo.jsp" >2032</a>
                                                             </td>
-                                                            <td> <a href="./boardView.html">가게부 잘 보고갑니다 참고할게요</a> </td>
+                                                            <td> <a href="./AdCmntInfo.jsp">가게부 잘 보고갑니다 참고할게요</a> </td>
                                                             <td class="mobile" >2018-01-05</td>
                                                         </tr>
                                                     </tbody>
