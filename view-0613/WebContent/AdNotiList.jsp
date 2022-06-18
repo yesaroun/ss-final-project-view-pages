@@ -59,14 +59,14 @@
                                     </tr>	
                                     <tr>
                                         <td>38</td>
-                                        <td>서비스 이용약관 변경 안내</td>
+                                        <td><a href="AdNotiCont.jsp">서비스 이용약관 변경 안내</a></td>
                                         <td>admin1</td>
                                         <td>2022.06.06</td>
                                         <td>402</td>
                                     </tr>
                                     <tr>
                                         <td>37</td>
-                                        <td>버전3 업데이트 내용 안내</td>
+                                        <td><a href="AdNotiCont.jsp">버전3 업데이트 내용 안내</a></td>
                                         <td>admin1</td>
                                         <td>2022.06.01</td>
                                         <td>186</td>
@@ -131,7 +131,7 @@
                         <div class="row">
                             <div class="col-12" style="place-items: center; display: grid;">
                                 <div class="paging">
-                                    <p>1 <span style="color: #F5CAC3;">Prev</span> 21 22 23 24 25 26 27 28 29 30 <span style="color: #92B4EC;">Next</span> 54</p>		
+                                    <p> 1 <span style="color: #F5CAC3;">Prev</span> 21 22 23 24 25 26 27 28 29 30 <span style="color: #92B4EC;">Next</span> 54</p>		
                                 </div>	
                             </div>
                         </div>

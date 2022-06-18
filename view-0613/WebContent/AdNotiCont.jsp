@@ -17,7 +17,7 @@
 	function notiDelete()
 	{
 		confirm("삭제가 완료되었습니다.");
-		window.location.href = "http://localhost:8090/WEB/adNotiList.jsp"; //★ 링크 수정 ★ 
+		window.location.href = "./AdNotiList.jsp"; //★ 링크 수정 ★ 
 	}
 
 </script>
@@ -89,13 +89,13 @@
                         <div class="row">
                             <div class="col-12" style="margin-top: 20px;">
                                 <button type="submit" class="btn btn-primary" style="background-color: skyblue; float: right;"
-                                onclick="javascript:location.href='<%=cp%>/adNotiUpdate.jsp'">수정하기</button>
+                                onclick="javascript:location.href='<%=cp%>/AdNotiUpdate.jsp'">수정하기</button>
                                 
                                 <button type="submit" class="btn btn-secondary" style="background-color: #F5CAC3; float: right;" 
                                 data-toggle="modal" data-target="#modal">삭제하기</button>
                                 
                                 <button type="submit" class="btn btn-third" style="background-color: lightgray; float: right;"
-                                onclick="javascript:location.href='<%=cp%>/adNotiList.jsp'">돌아가기</button>
+                                onclick="javascript:location.href='<%=cp%>/AdNotiList.jsp'">돌아가기</button>
                             </div>
                         </div>
                     </section>
