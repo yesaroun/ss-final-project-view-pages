@@ -25,7 +25,7 @@
     <div class="wrap">
         <!-- ○ 상단 네비게이션 include -->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <%-- <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="./AdMain.jsp">MONEYLOG</a>
                 <ol class="breadcrumb mobile" style="height: 30px; background: #FFD97D;">
                     <li class="active"> 안녕하세요. [ 김태형 ] 관리자님 반갑습니다.</li>
@@ -44,16 +44,16 @@
                         <a class="nav-item nav-link" href="/AdLogin.jsp">로그아웃</a>
                     </div>
                 </div>
-            </nav>
-            <%-- <jsp:include page="./AdNavManage.jsp"></jsp:include> --%>
+            </nav> --%>
+            <jsp:include page="./AdNavManage.jsp"></jsp:include>
         </header>
 
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span2">
                     <!-- ○ 좌측 메뉴바 include -->
-                    <%-- <jsp:include page="./AdMenuManage.jsp" flush="true"></jsp:include> --%>
-                    <div class="row d-flex d-md-block flex-nowrap wrapper">
+                    <jsp:include page="./AdMenuManage.jsp" flush="true"></jsp:include>
+                    <%-- <div class="row d-flex d-md-block flex-nowrap wrapper">
                         <nav class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar" style="position: fixed; top: 58px;">
                             <div class="list-group border-0 card text-center text-md-left">
                         
@@ -77,7 +77,7 @@
                                 
                             </div> 
                         </nav>
-                    </div>
+                    </div> --%>
                 </div>
             </div>
             
