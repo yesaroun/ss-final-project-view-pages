@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	    window.location.href = "./adBanInfo.jsp"
+        window.location.href = "./adBanInfo.jsp"
 	}
 </script>
 
@@ -26,7 +26,7 @@
         <header>
             <header>
                 <!-- ○ 상단 네비게이션 include -->
-	            <jsp:include page="./AdNavManage.jsp"></jsp:include>
+                <jsp:include page="./AdNavManage.jsp"></jsp:include>
             </header>
         </header>
 
@@ -64,7 +64,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td>
-                                                                <button type="button" class="btn btn-success" onclick="newPage()">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         
@@ -75,7 +75,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td >
-                                                                <button type="button" class="btn btn-success">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         
@@ -86,7 +86,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td >
-                                                                <button type="button" class="btn btn-success">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         
@@ -97,7 +97,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td >
-                                                                <button type="button" class="btn btn-success">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         
@@ -108,7 +108,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td >
-                                                                <button type="button" class="btn btn-success">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         
@@ -119,7 +119,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td >
-                                                                <button type="button" class="btn btn-success">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         
@@ -130,7 +130,7 @@
                                                             <td class="mobile" >test@test.com</td>
                                                             <td class="mobile" >2022-06-05</td>
                                                             <td style="">
-                                                                <button type="button" class="btn btn-success">보기</button>
+                                                                <button type="button" class="btn btn-success" onclick="location.href='AdBanInfo.jsp'">보기</button>
                                                             </td>
                                                         </tr>
                                                         

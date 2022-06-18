@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	    window.location.href = "./adBan.jsp"
+        window.location.href = "./adBan.jsp"
 	}
 </script>
 
@@ -91,17 +91,17 @@
                                                     </tr>
                                                     
                                                     <tr>
-                                                        <td><a href="">게시글122030</a></td>
+                                                        <td><a href="AdPostRept.jsp">게시글122030</a></td>
                                                         <td>2022/05/29</td>
                                                     </tr>
                                                     
                                                     <tr>
-                                                        <td><a href="">게시글122030</a></td>
+                                                        <td><a href="AdPostRept.jsp">게시글122030</a></td>
                                                         <td>2022/05/29</td>
                                                     </tr>
                                                     
                                                     <tr>
-                                                        <td><a href="">댓글122030</a></td>
+                                                        <td><a href="AdCmntRept.jsp">댓글122030</a></td>
                                                         <td>2022/05/29</td>
                                                     </tr>
                                                 </tbody>
@@ -117,6 +117,7 @@
         </div>
     </div>
 </div>
+
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
