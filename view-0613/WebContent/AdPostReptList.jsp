@@ -40,6 +40,16 @@
                 <main id="adPostReptList">
                     <section>
                         <div class="row">
+                                <div class="col-sm-9 m-3">
+                                    <div class="btn-group float-left">
+                                        <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F5CAC3; color: #000000;" onclick="location.href='AdPostReptList.jsp'">게시글 신고</button>
+                                        <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F7EDE2; color: #000000;" onclick="location.href='AdCmntReptList.jsp'">댓글 신고</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <section>
+                        <div class="row">
                             <!-- 게시글 신고처리 -->
                             <div class="col-md-12 mt-3">
                                 <div class="list-group">

@@ -11,12 +11,12 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	    window.location.href = "./adPostList.jsp"
+	    window.location.href = "./AdPostList.jsp"
 	}
 	
 	function newPage2()
 	{
-	    window.location.href = "./adCmntInfo.jsp"
+	    window.location.href = "./AdCmntInfo.jsp"
 	}
 	
 </script>
@@ -51,15 +51,15 @@
                         <div class="row">
                             <div class="col-sm-10 m-3">
                                 <div class="btn-group float-left">
-                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F5CAC3; color: #000000;" onclick="newPage()">게시글</button>
-                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F7EDE2; color: #000000;">댓글</button>
+                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F7EDE2; color: #000000;" onclick="newPage()">게시글</button>
+                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F5CAC3; color: #000000;">댓글</button>
                                 </div>
                                 <div class="btn-group float-right">
                                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 전체</button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="./adCmntList.jsp" style="background-color: #F5CAC3; border: none;">전체</a>
-                                        <a class="dropdown-item" href="./adCmntOpen.jsp">공개</a>
-                                        <a class="dropdown-item" href="./adCmntPrivate.jsp">비공개</a>
+                                        <a class="dropdown-item" href="./AdCmntList.jsp" style="background-color: #F5CAC3; border: none;">전체</a>
+                                        <a class="dropdown-item" href="./AdCmntOpen.jsp">공개</a>
+                                        <a class="dropdown-item" href="./AdCmntPrivate.jsp">비공개</a>
                                     </div>
                                 </div>
                                 
@@ -92,10 +92,10 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" style="text-align:center;">5</td>
                                                         <td scope="row" style="text-align:center;">
-                                                            <a href="./adPostRept.jsp" style="color: #000000;">2032</a>
+                                                            <a href="./AdPostRept.jsp" style="color: #000000;">2032</a>
                                                         </td>
                                                         <td scope="row" style="text-align:center;">
-                                                            <a href="./adPostRept.jsp" style="color: #000000;">135</a>
+                                                            <a href="./AdPostRept.jsp" style="color: #000000;">135</a>
                                                         </td>
                                                         <td class="mobile"> 잘보고갑니다~ </td>
                                                         <td class="mobile" scope="row" style="text-align:center;">test@test.com</td>
@@ -108,10 +108,10 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" style="text-align:center;">5</td>
                                                         <td scope="row" style="text-align:center;">
-                                                            <a href="./adPostRept.jsp" style="color: #000000;">2032</a>
+                                                            <a href="./AdPostRept.jsp" style="color: #000000;">2032</a>
                                                         </td>
                                                         <td scope="row" style="text-align:center;">
-                                                            <a href="./adPostRept.jsp" style="color: #000000;">135</a>
+                                                            <a href="./AdPostRept.jsp" style="color: #000000;">135</a>
                                                         </td>
                                                         <td class="mobile"> 가게부 이상하게 썼네요! </td>
                                                         <td class="mobile" scope="row" style="text-align:center;">test@test.com</td>
@@ -124,10 +124,10 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" style="text-align:center;">5</td>
                                                         <td scope="row" style="text-align:center;">
-                                                            <a href="./adPostRept.jsp" style="color: #000000;">2032</a>
+                                                            <a href="./AdPostRept.jsp" style="color: #000000;">2032</a>
                                                         </td>
                                                         <td scope="row" style="text-align:center;">
-                                                            <a href="./adPostRept.jsp" style="color: #000000;">135</a>
+                                                            <a href="./AdPostRept.jsp" style="color: #000000;">135</a>
                                                         </td>
                                                         <td class="mobile"> 재밌게 보고갑니다~ </td>
                                                         <td class="mobile" scope="row" style="text-align:center;">test@test.com</td>

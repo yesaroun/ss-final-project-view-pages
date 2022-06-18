@@ -11,12 +11,12 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	    window.location.href = "./adPostList.jsp"
+	    window.location.href = "./AdCmntList.jsp"
 	}
 	
 	function newPage2()
 	{
-	    window.location.href = "./postCont.jsp"
+	    window.location.href = "./MoneyPost.jsp"
 	}
 </script>
 
@@ -149,7 +149,6 @@
                     </section>
                     <section>
                         <div class="row">
-                            <!-- 돌아가기 -->
                             <div class="col-md-12">
                                 <table class="table">
                                     <tbody>

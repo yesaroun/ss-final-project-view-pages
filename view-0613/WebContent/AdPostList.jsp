@@ -11,12 +11,12 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adCmntList.jsp"
+        window.location.href = "./AdCmntList.jsp"
 	}
 	
 	function newPage2()
 	{
-	  window.location.href = "./adPostInfo.jsp"
+        window.location.href = "./AdPostInfo.jsp"
 	}
 	
 	
@@ -52,16 +52,17 @@
                         <div class="row">
                             <div class="col-sm-10 m-3">
                                 <div class="btn-group float-left">
-                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F5CAC3; color: #000000;">게시글</button>
-                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F7EDE2; color: #000000;" onclick="newPage()">댓글</button>
+                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F5CAC3; color: #000000;" onclick="location.href='AdPostList.jsp'">게시글</button>
+                                    <button type="submit" class="btn btn-primary" style="width:100px; background-color: #F7EDE2; color: #000000;" onclick="location.href='AdCmntList.jsp'">댓글</button>
                                 </div>
                                 <div class="btn-group float-right">
                                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        전체</button>
+                                        전체
+                                    </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="./adPostList.jsp" style="background-color: #F5CAC3; border: none;">전체</a>
-                                        <a class="dropdown-item" href="./adPostOpen.jsp">공개</a>
-                                        <a class="dropdown-item" href="./adPostPrivate.jsp">비공개</a>
+                                        <a class="dropdown-item" href="./AdPostList.jsp" style="background-color: #F5CAC3; border: none;">전체</a>
+                                        <a class="dropdown-item" href="./AdPostOpen.jsp">공개</a>
+                                        <a class="dropdown-item" href="./AdPostPrivate.jsp">비공개</a>
                                     </div>
                                 </div>
                             </div>

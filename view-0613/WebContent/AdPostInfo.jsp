@@ -11,11 +11,11 @@
 <script type="text/javascript">
 	function newPage()
 	{
-        window.location.href = "./adPostList.jsp"
+        window.location.href = "./AdPostList.jsp"
 	}
 	function newPage2()
 	{
-        window.location.href = "./postCont.jsp"
+        window.location.href = "./MoneyPost.jsp"
 	}
 </script>
 
