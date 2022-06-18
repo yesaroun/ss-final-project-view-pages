@@ -24,7 +24,7 @@ header {position: fixed; top: 0; z-index: 100; width: 100vw;}
 /*로그인스타일*/
 section > .container {margin-top: 55px}
 /*메인스타일*/
-main { margin-left: 200px; margin-top: 55px; margin-right: 100px;}
+main { margin-left: 250px; margin-top: 55px; margin-right: 100px;}
 /*버튼 스타일*/
 .btn {background-color: #FF9B85; border: none;}
 .btn:hover {background-color: #EF6E6B; border-radius: 4px;}

@@ -194,9 +194,15 @@
 		</div>
 		<div class="row">
 			<div class="col-6" style="text-align: left;">
-				<button type="submit" class="btn btn-primary" style="background-color: #1fa766;">
-					이월
-				</button> 
+                <div style="display: inline; border: 3px solid black;">
+                    이월
+                </div>
+                <span style="border: 3px solid black; padding: 3px;">
+                    이월
+                </span>
+				<!-- <button type="submit" class="btn btn-primary" style="background-color: #1fa766;">
+					
+				</button>  -->
 				2,000,000
 			</div>
 			<div class="col-6" style="text-align: right;">
@@ -233,11 +239,11 @@
                 	<!-- 나의 수입대비지출 프로그레스바 -->
                     <div class="progress" style="background-color: white;">
 
-                    	<div class="progress-bar progress-bar bg-white progress-bar-animated"
+                    	<!-- <div class="progress-bar progress-bar bg-white progress-bar-animated"
                              role="progressbar"
                              style="width: <%=( data1)-5 %>%;"
                              aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                        </div>
+                        </div> -->
                         <img style="width: 100px;" src="./img2/duck.gif">
 					</div>
                 </div>
@@ -250,11 +256,11 @@
                 	<!-- 머니리뷰 프로그레스바 -->
                     <div class="progress" style="height: 40px; background-color: #1fa766;">
 
-                    	<div class="progress-bar progress-bar bg-warning progress-bar-animated"
+                    	<!-- <div class="progress-bar progress-bar bg-warning progress-bar-animated"
                              role="progressbar"
                              style="font-size: 17pt; width: <%=data1%>%;"
                              aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                             <%=data1%>%
+                             <%=data1%>% -->
                         </div>
 					</div>
                 </div>

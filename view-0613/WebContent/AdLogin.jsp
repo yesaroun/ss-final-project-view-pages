@@ -33,7 +33,7 @@
                             <form action=""> 
                                 <input type="text" name="id" class="text-field form-control" placeholder="아이디" />
                                 <input type="password" name="pw" class="text-field form-control" placeholder="비밀번호" />
-                                <button type="submit" class="btn btn-primary" id="loginBtn">관리자 로그인</button>
+                                <button type="button" onclick="location.href='AdMain.jsp'" class="btn btn-primary" id="loginBtn">관리자 로그인</button>
                             </form>
                         </div>
                     </div>
