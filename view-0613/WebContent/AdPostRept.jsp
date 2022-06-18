@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	  window.location.href = "./adPostReptList.jsp"
+        window.location.href = "./adPostReptList.jsp"
 	}
 </script>
 
@@ -27,7 +27,7 @@
     <header>
         <header>
             <!-- ○ 상단 네비게이션 include -->
-	        <jsp:include page="./AdNavMoney.jsp"></jsp:include>
+            <jsp:include page="./AdNavManage.jsp"></jsp:include>
         </header>
     </header>
 
@@ -35,7 +35,7 @@
         <div class="row-fluid">
             <div class="span2">
                 <!-- ○ 좌측 메뉴바 include -->
-                <jsp:include page="./AdMenuMoney.jsp"></jsp:include> 
+                <jsp:include page="./AdMenuManage.jsp"></jsp:include> 
             </div>
             <div class="span10">
                 <main id="adPostRept">
@@ -59,7 +59,7 @@
                                                     <tr>
                                                         <td colspan="3">33</td>
                                                         <td colspan="3">2020-05-20</td>
-                                                        <td colspan="3"><a href="./boardView.html">2032</a></td>
+                                                        <td colspan="3"><a href="./AdPostInfo.jsp">2032</a></td>
                                                         <td colspan="3" class="mobile">test@test.com</td>
                                                     </tr>
                                                 </tbody>
@@ -129,7 +129,9 @@
                                                     <!-- 게시글 버튼 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn" style="width: 100%; background-color: #F5CAC3;" data-toggle="modal" data-target="#modal" onclick="newPage()">게시글 보러가기</button>
+                                                            <button class="btn" style="width: 100%; background-color: #F5CAC3;" data-toggle="modal" data-target="#modal" onclick="location.href='MoneyPost.jsp'">
+                                                                게시글 보러가기
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -161,7 +163,7 @@
                                                     <!-- 돌아가기 버튼 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn" style="width: 100%; background-color: #F5CAC3;" data-toggle="modal" data-target="#modal" onclick="newPage()">돌아가기</button>
+                                                            <button class="btn" style="width: 100%; background-color: #F5CAC3;" data-toggle="modal" data-target="#modal" onclick="location.href='AdPostReptList.jsp'">돌아가기</button>
                                                         </td>
                                                     </tr>
                                                 </tbody>

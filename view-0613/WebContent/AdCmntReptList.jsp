@@ -24,7 +24,6 @@
 <body>
 
 <div class="wrap">
-    <!-- ○ 상단 네비게이션 include -->
     <header>
         <header>
             <!-- ○ 상단 네비게이션 include -->
@@ -36,7 +35,7 @@
         <div class="row-fluid">
             <div class="span2">
                 <!-- ○ 좌측 메뉴바 include -->
-                <jsp:include page="./AdMenuMoney.jsp"></jsp:include>
+                <jsp:include page="./AdMenuManage.jsp"></jsp:include>
             </div>
             <div class="span10">
                 <main id="adCmntReptList">

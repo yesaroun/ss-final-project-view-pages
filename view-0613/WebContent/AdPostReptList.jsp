@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	    window.location.href = "./adCmntReptList.jsp"
+        window.location.href = "./adCmntReptList.jsp"
 	}
 </script>
 
@@ -26,7 +26,7 @@
     <header>
         <header>
             <!-- ○ 상단 네비게이션 include -->
-	        <jsp:include page="./AdNavMoney.jsp"></jsp:include>
+            <jsp:include page="./AdNavMoney.jsp"></jsp:include>
         </header>
     </header>
 
@@ -34,7 +34,7 @@
         <div class="row-fluid">
             <div class="span2">
                 <!-- ○ 좌측 메뉴바 include -->
-                <jsp:include page="./AdMenuMoney.jsp"></jsp:include>
+                <jsp:include page="./AdMenuManage.jsp"></jsp:include>
             </div>
             <div class="span10">
                 <main id="adPostReptList">
@@ -61,10 +61,10 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" >
-                                                            <a href="./adPostRept.jsp" >2032</a>
+                                                            <a href="./AdPostRept.jsp" >2032</a>
                                                         </td>
                                                         <td class="content-column"> 
-                                                            <a href="./adPostRept.jsp">저희 카페로 놀러오세요! (투썸 신용산역 어쩌구 홍보글)</a> 
+                                                            <a href="./AdPostRept.jsp">저희 카페로 놀러오세요! (투썸 신용산역 어쩌구 홍보글)</a> 
                                                         </td>
                                                         <td scope="row" >홍보</td>
                                                         <td class="mobile" >2018-01-05</td>
@@ -73,10 +73,10 @@
                                                     <tr>
                                                         <td scope="row" class="mobile" >5</td>
                                                         <td scope="row" >
-                                                            <a href="./adPostRept.jsp" >2032</a>
+                                                            <a href="./AdPostRept.jsp" >2032</a>
                                                         </td>
                                                         <td class="content-column"> 
-                                                            <a href="./adPostRept.jsp">저희 카페로 놀러오세요! (투썸 신용산역 어쩌구 홍보글)</a> 
+                                                            <a href="./AdPostRept.jsp">저희 카페로 놀러오세요! (투썸 신용산역 어쩌구 홍보글)</a> 
                                                         </td>
                                                         <td scope="row">기타</td>
                                                         <td class="mobile">2018-01-05</td>
@@ -85,10 +85,10 @@
                                                     <tr>
                                                         <td scope="row" class="mobile">5</td>
                                                         <td scope="row">
-                                                            <a href="./adPostRept.jsp" >2032</a>
+                                                            <a href="./AdPostRept.jsp" >2032</a>
                                                         </td>
                                                         <td class="content-column"> 
-                                                            <a href="./adPostRept.jsp">저희 카페로 놀러오세요! (투썸 신용산역 어쩌구 홍보글)</a> 
+                                                            <a href="./AdPostRept.jsp">저희 카페로 놀러오세요! (투썸 신용산역 어쩌구 홍보글)</a> 
                                                         </td>
                                                         <td scope="row">음란물</td>
                                                         <td class="mobile">2018-01-05</td>

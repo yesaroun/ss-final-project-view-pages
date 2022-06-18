@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	function newPage()
 	{
-	    window.location.href = "./adCmntReptList.jsp"
+        window.location.href = "./adCmntReptList.jsp"
 	}
 </script>
 
@@ -143,7 +143,9 @@
                                                     <!-- 게시글 버튼 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn" style="width: 100%;" data-toggle="modal" data-target="#modal" onclick="newPage()">게시글 보러가기</button>
+                                                            <button class="btn" style="width: 100%;" data-toggle="modal" data-target="#modal" onclick="location.href='MoneyPost.jsp'">
+                                                                게시글 보러가기
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -178,7 +180,7 @@
                                                     <!-- 돌아가기 버튼 -->
                                                     <tr>
                                                         <td colspan="12">
-                                                            <button class="btn" style="width: 100%;" onclick="newPage()">돌아가기</button>
+                                                            <button class="btn" style="width: 100%;" onclick="location.href='AdCmntReptList.jsp'">돌아가기</button>
                                                         </td>
                                                     </tr>
                                             
