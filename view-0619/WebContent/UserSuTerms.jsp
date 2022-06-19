@@ -17,28 +17,39 @@
 
 	$(function()
 	{
+		// 전체 선택 / 전체해제
+		$("#chkAll").click(function()
+		{
+			if($("#chkAll").is(":checked"))
+				$("input[name=check]").prop("checked", true);
+			else $("input[name=check]").prop("checked", false);
+		});
+		
+		// 비동의 눌렀을 때 페이지 넘어가지 않도록 하기
 		$("#disagree").click(function()
 		{
-			alert("동의해야 회원가입이 가능합니다.");
+			alert("필수조건을 모두 동의해야 회원가입이 가능합니다.");
 			return false;
 		});
 		
+		// 동의버튼 눌렀을 때
 		$("#agreeBtn").click(function()
 		{
 			//alert("확인");
 			
-			if( $("#usecheck").is(":checked") == false || $("#infocheck").is(":checked") == false )
+			// 필수조건 체크 안되어 있을 때 페이지 넘어가지 않도록 하기 
+			if( $("#usecheck").is(":checked") == false || $("#infocheck").is(":checked") == false || $("#moneyloginfo").is(":checked") == false )
 			{
 				//alert("버튼 체크 안됨");
+				alert("필수조건을 모두 동의해야 회원가입이 가능합니다.");
 				return false;
 			}
 			else
-			{
+			{	// 필수조건 체크되면 submit
 				//alert("버튼 체크");
 				$("#joinForm").submit();
 			}
 			
-			// 전체 동의 클릭하면 모든 체크박스 체크 설정되는 것 추가 ★
 		});
 		
 	});
@@ -97,53 +108,53 @@
                             </li>
                         </ul>
                         <textarea class="check-detail" name="" id="">여러분을 환영합니다.
-                            네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                            머니로그 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 머니로그 서비스의 이용과 관련하여 머니로그 서비스를 제공하는 머니로그 주식회사(이하 ‘머니로그’)와 이를 이용하는 머니로그 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 머니로그 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
                         </textarea>
                     </li>
                     <li class="checkBox check02">
                         <ul class="clearfix">
                             <li>이용약관 동의(필수)</li>
                             <li class="checkBtn">
-                                <input type="checkbox" id="usecheck" name="usecheck" class="usecheck"> 
+                                <input type="checkbox" id="usecheck" name="check" class="usecheck"> 
                             </li>
                         </ul>
                         <textarea class="check-detail" name="" id="">여러분을 환영합니다.
-                            네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                            머니로그 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 머니로그 서비스의 이용과 관련하여 머니로그 서비스를 제공하는 머니로그 주식회사(이하 ‘머니로그’)와 이를 이용하는 머니로그 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 머니로그 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
                         </textarea>
                     </li>
                     <li class="checkBox check03">
                         <ul class="clearfix">
                             <li>개인정보 수집 및 이용에 대한 안내(필수)</li>
                             <li class="checkBtn">
-                                <input type="checkbox" name="infocheck" id="infocheck" class="infocheck">
+                                <input type="checkbox" name="check" id="infocheck" class="infocheck">
                             </li>
                         </ul>
         
                         <textarea class="check-detail" name="" id="">여러분을 환영합니다.
-                            네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                            머니로그 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 머니로그 서비스의 이용과 관련하여 머니로그 서비스를 제공하는 머니로그 주식회사(이하 ‘머니로그’)와 이를 이용하는 머니로그 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 머니로그 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
                         </textarea>
                     </li>
                     <li class="checkBox check03">
                         <ul class="clearfix">
                             <li>위치정보 이용약관 동의(선택)</li>
                             <li class="checkBtn">
-                                <input type="checkbox" name="locacheck" id="locacheck" class="chk">
+                                <input type="checkbox" name="check" id="locacheck" class="chk">
                             </li>
                         </ul>
         
                         <textarea class="check-detail" name="" id="">여러분을 환영합니다.
-                            네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                            머니로그 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 머니로그 서비스의 이용과 관련하여 머니로그 서비스를 제공하는 머니로그 주식회사(이하 ‘머니로그’)와 이를 이용하는 머니로그 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 머니로그 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
                         </textarea>
                     </li>
                     <li class="checkBox check04">
                         <ul class="clearfix">
-                            <li>개인정보 수집 및 이용에 대한 안내(필수)</li>
+                            <li>이용정보 수집 및 이용에 대한 안내(필수)</li>
                             <li class="checkBtn">
-                                <input type="checkbox" name="eventcheck" class="eventcheck">
+                                <input type="checkbox" name="check" id="moneyloginfo" class="eventcheck">
                             </li>
                         </ul>
                         <textarea class="check-detail" name="" id="">여러분을 환영합니다.
-                            네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                            머니로그 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 머니로그 서비스의 이용과 관련하여 머니로그 서비스를 제공하는 머니로그 주식회사(이하 ‘머니로그’)와 이를 이용하는 머니로그 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 머니로그 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
                         </textarea>
                     </li>
                 </ul>

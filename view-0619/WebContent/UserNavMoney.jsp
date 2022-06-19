@@ -31,7 +31,7 @@
 				<a class="nav-item nav-link active" href="userpostlist.action?pageNum=1">머니리뷰</a>
 				<a class="nav-item nav-link" href="#">고객지원</a>
 				<a class="nav-item nav-link" href="mypostlist.action">마이페이지</a>
-				<a class="nav-item nav-link" href="#">로그아웃</a>
+				<a class="nav-item nav-link" href="logoutuser.action">로그아웃</a>
 			</div>
 		</div>
 	</nav>

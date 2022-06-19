@@ -102,18 +102,19 @@
 			}) 
 		});
 		
-		// 비밀번호 8자 ~15자 이내인지 검사
+		// 비밀번호 검사
 		$("#user_pw").keyup(function()
 		{
 			var user_pw = $("#user_pw").val();
+			var pw_rule = /^.*(?=^.{8,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;  // 정규표현식
 			
-			if(user_pw.length > 7 && user_pw.length < 16)
+			if(!pw_rule.test(user_pw))
 			{
-				$("#errPw").hide();
+				$("#errPw").show();
 				
 			}
 			else
-				$("#errPw").show();
+				$("#errPw").hide();
 		});
 		
 		
@@ -138,29 +139,16 @@
 				}
 			}
 		});
-			/* --==>> 일치했을 때 다시 없어져야함 확인 ★
-		   // 이름 한글만 되도록 하는 정규식 유효성 검사
-		   $('#user_name').keypress(function onlyHangul() 
-		   {
-		      if((event.keyCode < 12592) || (event.keyCode > 12687)) 
-		      {
-		         if(navigator.appName=="Netscape")
-		         {
-		            event.preventDefault();
-		            //alert("한글만 입력할 수 있습니다!!");
-		            $("#nameOk").hide();
-		            $("#errName").show();
-		         	
-		         }
-		         else
-		        { 
-		        	$("#errName").hide();
-		        	 $("#nameOk").show();
-		            event.returnValue = false;
-		        }
-		      }
-		   }); */
+			
+		// 이름에 한글만 입력하게 하여 영문과 숫자, 특문은 자동으로 지워지게
+		$("#user_name").keyup(function()
+		{
+			var user_name = $(this).val();
+			$(this).val((user_name.replace(/[[a-zA-Z0-9~!@#$%^&*()_+|<>?:{}= ]/g,'')));
+			
+		});   
 		
+
 		$("#nextBtn").click(function()
 		{	
 			// 데이터 검사(공란이 있는지 없는지에 대한 여부 확인)
@@ -253,26 +241,26 @@
 						<label>아이디</label> 
 						<input type="text" id="user_id" name="user_id" class="input_id form-control" placeholder="아이디를 입력하세요." oninput="idForm(this)" required>
 						<span id="checkId" style="font-size: small;"></span>
-						<div class="alert alert-danger" id="errIdCheck">정상적인 이메일 형식의 아이디를 입력하세요</div>
+						<div class="alert alert-danger" id="errIdCheck">※ 정상적인 이메일 형식의 아이디를 입력하세요</div>
 						<div class="alert alert-success" id="idOk">중복되지 않은 아이디입니다.</div>
-						<div class="alert alert-danger" id="errId">중복되어 사용할 수 없는 아이디입니다.</div>
+						<div class="alert alert-danger" id="errId">※ 중복되어 사용할 수 없는 아이디입니다.</div>
 					</div>
 					<div class="form-group">
 						<label for="user_pw">비밀번호</label>
 						<input type="password" id="user_pw" name="user_pw" class="form-control" placeholder="비밀번호를 입력하세요." maxlength="15" required>
-						<div class="alert alert-danger" id="errPw">※ 비밀번호는 8자 이상 ~ 15자 이내로 작성하세요</div>
+						<div class="alert alert-danger" id="errPw">※ 8~15 자리의 영문 + 숫자 + 특수문자 조합 비밀번호를 입력해주세요.</div>
 					</div>
 					<div class="form-group">
 						<label for="pwCheck">비밀번호 확인</label>
 						<input type="password" id="pwCheck" name="pwCheck" class="form-control" placeholder="비밀번호 확인을 입력하세요." maxlength="15" required>
-						<div class="alert alert-danger" id="errPwCheck">비밀번호가 일치하지 않습니다.</div>
+						<div class="alert alert-danger" id="errPwCheck">※ 비밀번호가 일치하지 않습니다.</div>
 						<div class="alert alert-success" id="pwOk">비밀번호가 일치합니다.</div>
 
 					</div>
 					<div class="form-group">
 						<label for="user_name">이름</label>
 						<input type="text" id="user_name" name="user_name" class="form-control" placeholder="이름을 입력하세요." required>
-						<div class="alert alert-danger" id="errName">한글만 입력할 수 있습니다.</div>
+						<div class="alert alert-danger" id="errName">※ 한글만 입력할 수 있습니다.</div>
 					</div>
 					<div class="form-group">
 						<label for="user_tel">휴대폰번호</label>
