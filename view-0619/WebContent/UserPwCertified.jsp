@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 <title>휴대폰 인증 비밀번호 찾기</title>
 <link rel="stylesheet" href="./css/bootstrap.min.css" />
-<link rel="stylesheet" href="./css/main.css" />
+<link rel="stylesheet" href="./css/main.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="<%=cp%>/js/jquery-ui.js"></script>
 

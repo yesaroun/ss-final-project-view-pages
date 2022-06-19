@@ -38,7 +38,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- 부트스트랩 CSS 추가하기 -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
    <!-- ○ 상단 네비게이션 include -->

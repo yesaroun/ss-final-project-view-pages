@@ -59,8 +59,11 @@
 <script src="./js/userTerms.js"></script>
 </head>
 <body>
-	<!-- ○ 상단 네비게이션 include -->
-	<jsp:include page="./GuestNavTerm.jsp"></jsp:include>
+    <header>
+        <!-- ○ 상단 네비게이션 include -->
+	    <jsp:include page="./GuestNavTerm.jsp"></jsp:include>
+    </header>
+	
 
     <!-- 회원가입 상단 아이콘 -->
 	<div class="container-fixed m-4">
